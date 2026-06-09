@@ -1,0 +1,5 @@
+Elapsed clock time [H:MM:SS (secs)]: 0:01:52 (112)
+Elapsed process time [H:MM:SS (secs)]: 0:01:22 (82)
+engine_0 (smtbmc) returned FAIL for basecase
+counterexample trace [basecase]: engine_0/trace.vcd
+  failed assertion tt_formal._witness_.check_flatten_dut_I__branch_28__check_mask_block_9__um_I__block_28_9_tt_um_I__assert_tt_um_formal_v_29_75 at tt_um_formal.v:29.6-29.29 in step 0

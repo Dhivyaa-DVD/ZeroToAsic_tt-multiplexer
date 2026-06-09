@@ -1,0 +1,1293 @@
+SBY  5:26:33 [tt_connectivity] Removing directory '/foss/designs/tt-multiplexer/formal/tt_connectivity'.
+SBY  5:26:34 [tt_connectivity] Copy '/foss/designs/tt-multiplexer/formal/tt_formal.v' to '/foss/designs/tt-multiplexer/formal/tt_connectivity/src/tt_formal.v'.
+SBY  5:26:34 [tt_connectivity] Copy '/foss/designs/tt-multiplexer/rtl/tt_defs.vh' to '/foss/designs/tt-multiplexer/formal/tt_connectivity/src/tt_defs.vh'.
+SBY  5:26:34 [tt_connectivity] Copy '/foss/designs/tt-multiplexer/rtl/tt_top.v' to '/foss/designs/tt-multiplexer/formal/tt_connectivity/src/tt_top.v'.
+SBY  5:26:34 [tt_connectivity] Copy '/foss/designs/tt-multiplexer/rtl/tt_mux.v' to '/foss/designs/tt-multiplexer/formal/tt_connectivity/src/tt_mux.v'.
+SBY  5:26:34 [tt_connectivity] Copy '/foss/designs/tt-multiplexer/rtl/tt_ctrl.v' to '/foss/designs/tt-multiplexer/formal/tt_connectivity/src/tt_ctrl.v'.
+SBY  5:26:34 [tt_connectivity] Copy '/foss/designs/tt-multiplexer/rtl/prim_generic/tt_prim_buf.v' to '/foss/designs/tt-multiplexer/formal/tt_connectivity/src/tt_prim_buf.v'.
+SBY  5:26:34 [tt_connectivity] Copy '/foss/designs/tt-multiplexer/rtl/prim_generic/tt_prim_dfrbp.v' to '/foss/designs/tt-multiplexer/formal/tt_connectivity/src/tt_prim_dfrbp.v'.
+SBY  5:26:34 [tt_connectivity] Copy '/foss/designs/tt-multiplexer/rtl/prim_generic/tt_prim_diode.v' to '/foss/designs/tt-multiplexer/formal/tt_connectivity/src/tt_prim_diode.v'.
+SBY  5:26:34 [tt_connectivity] Copy '/foss/designs/tt-multiplexer/rtl/prim_generic/tt_prim_inv.v' to '/foss/designs/tt-multiplexer/formal/tt_connectivity/src/tt_prim_inv.v'.
+SBY  5:26:34 [tt_connectivity] Copy '/foss/designs/tt-multiplexer/rtl/prim_generic/tt_prim_mux2.v' to '/foss/designs/tt-multiplexer/formal/tt_connectivity/src/tt_prim_mux2.v'.
+SBY  5:26:34 [tt_connectivity] Copy '/foss/designs/tt-multiplexer/rtl/prim_generic/tt_prim_mux4.v' to '/foss/designs/tt-multiplexer/formal/tt_connectivity/src/tt_prim_mux4.v'.
+SBY  5:26:34 [tt_connectivity] Copy '/foss/designs/tt-multiplexer/rtl/prim_generic/tt_prim_tbuf_pol.v' to '/foss/designs/tt-multiplexer/formal/tt_connectivity/src/tt_prim_tbuf_pol.v'.
+SBY  5:26:34 [tt_connectivity] Copy '/foss/designs/tt-multiplexer/rtl/prim_generic/tt_prim_tbuf.v' to '/foss/designs/tt-multiplexer/formal/tt_connectivity/src/tt_prim_tbuf.v'.
+SBY  5:26:34 [tt_connectivity] Copy '/foss/designs/tt-multiplexer/rtl/prim_generic/tt_prim_tie.v' to '/foss/designs/tt-multiplexer/formal/tt_connectivity/src/tt_prim_tie.v'.
+SBY  5:26:34 [tt_connectivity] Copy '/foss/designs/tt-multiplexer/rtl/prim_generic/tt_prim_zbuf.v' to '/foss/designs/tt-multiplexer/formal/tt_connectivity/src/tt_prim_zbuf.v'.
+SBY  5:26:34 [tt_connectivity] Copy '/foss/designs/tt-multiplexer/formal/tt_um_formal.v' to '/foss/designs/tt-multiplexer/formal/tt_connectivity/src/tt_um_formal.v'.
+SBY  5:26:34 [tt_connectivity] Copy '/foss/designs/tt-multiplexer/formal/tt_user_module_connectivity.v' to '/foss/designs/tt-multiplexer/formal/tt_connectivity/src/tt_user_module_connectivity.v'.
+SBY  5:26:34 [tt_connectivity] engine_0: smtbmc
+SBY  5:26:34 [tt_connectivity] base: starting process "cd tt_connectivity/src; yosys -ql ../model/design.log ../model/design.ys"
+SBY  5:26:35 [tt_connectivity] base: Warning: Yosys has only limited support for tri-state logic at the moment. (tt_prim_tbuf.v:21)
+SBY  5:26:35 [tt_connectivity] base: Warning: Yosys has only limited support for tri-state logic at the moment. (tt_prim_tie.v:21)
+SBY  5:26:35 [tt_connectivity] base: Warning: Yosys has only limited support for tri-state logic at the moment. (tt_prim_tie.v:22)
+SBY  5:26:54 [tt_connectivity] base: Warning: Wire $paramod$6b13a22e35675048110a1ef1d23edb28b483df08\tt_user_module.\ow [7] is used but has no driver.
+SBY  5:26:54 [tt_connectivity] base: Warning: Wire $paramod$6b13a22e35675048110a1ef1d23edb28b483df08\tt_user_module.\ow [6] is used but has no driver.
+SBY  5:26:54 [tt_connectivity] base: Warning: Wire $paramod$6b13a22e35675048110a1ef1d23edb28b483df08\tt_user_module.\ow [5] is used but has no driver.
+SBY  5:26:54 [tt_connectivity] base: Warning: Wire $paramod$6b13a22e35675048110a1ef1d23edb28b483df08\tt_user_module.\ow [4] is used but has no driver.
+SBY  5:26:54 [tt_connectivity] base: Warning: Wire $paramod$6b13a22e35675048110a1ef1d23edb28b483df08\tt_user_module.\ow [3] is used but has no driver.
+SBY  5:26:54 [tt_connectivity] base: Warning: Wire $paramod$6b13a22e35675048110a1ef1d23edb28b483df08\tt_user_module.\ow [2] is used but has no driver.
+SBY  5:26:54 [tt_connectivity] base: Warning: Wire $paramod$6b13a22e35675048110a1ef1d23edb28b483df08\tt_user_module.\ow [1] is used but has no driver.
+SBY  5:26:54 [tt_connectivity] base: Warning: Wire $paramod$6b13a22e35675048110a1ef1d23edb28b483df08\tt_user_module.\ow [0] is used but has no driver.
+SBY  5:26:54 [tt_connectivity] base: Warning: multiple conflicting drivers for tt_ctrl.\spine_top_ow [10]:
+SBY  5:26:54 [tt_connectivity] base: port z[0] of cell genblk1[1].tbuf_spine_ow_I[9] ($paramod\tt_prim_tbuf\HIGH_DRIVE=s32'00000000000000000000000000000000)
+SBY  5:26:54 [tt_connectivity] base: port diode[0] of cell spine_diode_I[36] (tt_prim_diode)
+SBY  5:26:54 [tt_connectivity] base: module input spine_top_ow[10]
+SBY  5:26:54 [tt_connectivity] base: Warning: multiple conflicting drivers for tt_ctrl.\spine_top_ow [9]:
+SBY  5:26:54 [tt_connectivity] base: port z[0] of cell genblk1[1].tbuf_spine_ow_I[8] ($paramod\tt_prim_tbuf\HIGH_DRIVE=s32'00000000000000000000000000000000)
+SBY  5:26:54 [tt_connectivity] base: port diode[0] of cell spine_diode_I[35] (tt_prim_diode)
+SBY  5:26:54 [tt_connectivity] base: module input spine_top_ow[9]
+SBY  5:26:54 [tt_connectivity] base: Warning: multiple conflicting drivers for tt_ctrl.\spine_top_ow [8]:
+SBY  5:26:54 [tt_connectivity] base: port z[0] of cell genblk1[1].tbuf_spine_ow_I[7] ($paramod\tt_prim_tbuf\HIGH_DRIVE=s32'00000000000000000000000000000000)
+SBY  5:26:54 [tt_connectivity] base: port diode[0] of cell spine_diode_I[34] (tt_prim_diode)
+SBY  5:26:54 [tt_connectivity] base: module input spine_top_ow[8]
+SBY  5:26:54 [tt_connectivity] base: Warning: multiple conflicting drivers for tt_ctrl.\spine_top_ow [7]:
+SBY  5:26:54 [tt_connectivity] base: port z[0] of cell genblk1[1].tbuf_spine_ow_I[6] ($paramod\tt_prim_tbuf\HIGH_DRIVE=s32'00000000000000000000000000000000)
+SBY  5:26:54 [tt_connectivity] base: port diode[0] of cell spine_diode_I[33] (tt_prim_diode)
+SBY  5:26:54 [tt_connectivity] base: module input spine_top_ow[7]
+SBY  5:26:54 [tt_connectivity] base: Warning: multiple conflicting drivers for tt_ctrl.\spine_top_ow [6]:
+SBY  5:26:54 [tt_connectivity] base: port z[0] of cell genblk1[1].tbuf_spine_ow_I[5] ($paramod\tt_prim_tbuf\HIGH_DRIVE=s32'00000000000000000000000000000000)
+SBY  5:26:54 [tt_connectivity] base: port diode[0] of cell spine_diode_I[32] (tt_prim_diode)
+SBY  5:26:54 [tt_connectivity] base: module input spine_top_ow[6]
+SBY  5:26:54 [tt_connectivity] base: Warning: multiple conflicting drivers for tt_ctrl.\spine_top_ow [5]:
+SBY  5:26:54 [tt_connectivity] base: port z[0] of cell genblk1[1].tbuf_spine_ow_I[4] ($paramod\tt_prim_tbuf\HIGH_DRIVE=s32'00000000000000000000000000000000)
+SBY  5:26:54 [tt_connectivity] base: port diode[0] of cell spine_diode_I[31] (tt_prim_diode)
+SBY  5:26:54 [tt_connectivity] base: module input spine_top_ow[5]
+SBY  5:26:54 [tt_connectivity] base: Warning: multiple conflicting drivers for tt_ctrl.\spine_top_ow [4]:
+SBY  5:26:54 [tt_connectivity] base: port z[0] of cell genblk1[1].tbuf_spine_ow_I[3] ($paramod\tt_prim_tbuf\HIGH_DRIVE=s32'00000000000000000000000000000000)
+SBY  5:26:54 [tt_connectivity] base: port diode[0] of cell spine_diode_I[30] (tt_prim_diode)
+SBY  5:26:54 [tt_connectivity] base: module input spine_top_ow[4]
+SBY  5:26:54 [tt_connectivity] base: Warning: multiple conflicting drivers for tt_ctrl.\spine_top_ow [3]:
+SBY  5:26:54 [tt_connectivity] base: port z[0] of cell genblk1[1].tbuf_spine_ow_I[2] ($paramod\tt_prim_tbuf\HIGH_DRIVE=s32'00000000000000000000000000000000)
+SBY  5:26:54 [tt_connectivity] base: port diode[0] of cell spine_diode_I[29] (tt_prim_diode)
+SBY  5:26:54 [tt_connectivity] base: module input spine_top_ow[3]
+SBY  5:26:54 [tt_connectivity] base: Warning: multiple conflicting drivers for tt_ctrl.\spine_top_ow [24]:
+SBY  5:26:54 [tt_connectivity] base: port z[0] of cell genblk1[1].tbuf_spine_ow_I[23] ($paramod\tt_prim_tbuf\HIGH_DRIVE=s32'00000000000000000000000000000000)
+SBY  5:26:54 [tt_connectivity] base: port diode[0] of cell spine_diode_I[50] (tt_prim_diode)
+SBY  5:26:54 [tt_connectivity] base: module input spine_top_ow[24]
+SBY  5:26:54 [tt_connectivity] base: Warning: multiple conflicting drivers for tt_ctrl.\spine_top_ow [23]:
+SBY  5:26:54 [tt_connectivity] base: port z[0] of cell genblk1[1].tbuf_spine_ow_I[22] ($paramod\tt_prim_tbuf\HIGH_DRIVE=s32'00000000000000000000000000000000)
+SBY  5:26:54 [tt_connectivity] base: port diode[0] of cell spine_diode_I[49] (tt_prim_diode)
+SBY  5:26:54 [tt_connectivity] base: module input spine_top_ow[23]
+SBY  5:26:54 [tt_connectivity] base: Warning: multiple conflicting drivers for tt_ctrl.\spine_top_ow [22]:
+SBY  5:26:54 [tt_connectivity] base: port z[0] of cell genblk1[1].tbuf_spine_ow_I[21] ($paramod\tt_prim_tbuf\HIGH_DRIVE=s32'00000000000000000000000000000000)
+SBY  5:26:54 [tt_connectivity] base: port diode[0] of cell spine_diode_I[48] (tt_prim_diode)
+SBY  5:26:54 [tt_connectivity] base: module input spine_top_ow[22]
+SBY  5:26:54 [tt_connectivity] base: Warning: multiple conflicting drivers for tt_ctrl.\spine_top_ow [21]:
+SBY  5:26:54 [tt_connectivity] base: port z[0] of cell genblk1[1].tbuf_spine_ow_I[20] ($paramod\tt_prim_tbuf\HIGH_DRIVE=s32'00000000000000000000000000000000)
+SBY  5:26:54 [tt_connectivity] base: port diode[0] of cell spine_diode_I[47] (tt_prim_diode)
+SBY  5:26:54 [tt_connectivity] base: module input spine_top_ow[21]
+SBY  5:26:54 [tt_connectivity] base: Warning: multiple conflicting drivers for tt_ctrl.\spine_top_ow [2]:
+SBY  5:26:54 [tt_connectivity] base: port z[0] of cell genblk1[1].tbuf_spine_ow_I[1] ($paramod\tt_prim_tbuf\HIGH_DRIVE=s32'00000000000000000000000000000000)
+SBY  5:26:54 [tt_connectivity] base: port diode[0] of cell spine_diode_I[28] (tt_prim_diode)
+SBY  5:26:54 [tt_connectivity] base: module input spine_top_ow[2]
+SBY  5:26:54 [tt_connectivity] base: Warning: multiple conflicting drivers for tt_ctrl.\spine_top_ow [20]:
+SBY  5:26:54 [tt_connectivity] base: port z[0] of cell genblk1[1].tbuf_spine_ow_I[19] ($paramod\tt_prim_tbuf\HIGH_DRIVE=s32'00000000000000000000000000000000)
+SBY  5:26:54 [tt_connectivity] base: port diode[0] of cell spine_diode_I[46] (tt_prim_diode)
+SBY  5:26:54 [tt_connectivity] base: module input spine_top_ow[20]
+SBY  5:26:54 [tt_connectivity] base: Warning: multiple conflicting drivers for tt_ctrl.\spine_top_ow [19]:
+SBY  5:26:54 [tt_connectivity] base: port z[0] of cell genblk1[1].tbuf_spine_ow_I[18] ($paramod\tt_prim_tbuf\HIGH_DRIVE=s32'00000000000000000000000000000000)
+SBY  5:26:54 [tt_connectivity] base: port diode[0] of cell spine_diode_I[45] (tt_prim_diode)
+SBY  5:26:54 [tt_connectivity] base: module input spine_top_ow[19]
+SBY  5:26:54 [tt_connectivity] base: Warning: multiple conflicting drivers for tt_ctrl.\spine_top_ow [18]:
+SBY  5:26:54 [tt_connectivity] base: port z[0] of cell genblk1[1].tbuf_spine_ow_I[17] ($paramod\tt_prim_tbuf\HIGH_DRIVE=s32'00000000000000000000000000000000)
+SBY  5:26:54 [tt_connectivity] base: port diode[0] of cell spine_diode_I[44] (tt_prim_diode)
+SBY  5:26:54 [tt_connectivity] base: module input spine_top_ow[18]
+SBY  5:26:54 [tt_connectivity] base: Warning: multiple conflicting drivers for tt_ctrl.\spine_top_ow [17]:
+SBY  5:26:54 [tt_connectivity] base: port z[0] of cell genblk1[1].tbuf_spine_ow_I[16] ($paramod\tt_prim_tbuf\HIGH_DRIVE=s32'00000000000000000000000000000000)
+SBY  5:26:54 [tt_connectivity] base: port diode[0] of cell spine_diode_I[43] (tt_prim_diode)
+SBY  5:26:54 [tt_connectivity] base: module input spine_top_ow[17]
+SBY  5:26:54 [tt_connectivity] base: Warning: multiple conflicting drivers for tt_ctrl.\spine_top_ow [16]:
+SBY  5:26:54 [tt_connectivity] base: port z[0] of cell genblk1[1].tbuf_spine_ow_I[15] ($paramod\tt_prim_tbuf\HIGH_DRIVE=s32'00000000000000000000000000000000)
+SBY  5:26:54 [tt_connectivity] base: port diode[0] of cell spine_diode_I[42] (tt_prim_diode)
+SBY  5:26:54 [tt_connectivity] base: module input spine_top_ow[16]
+SBY  5:26:54 [tt_connectivity] base: Warning: multiple conflicting drivers for tt_ctrl.\spine_top_ow [15]:
+SBY  5:26:54 [tt_connectivity] base: port z[0] of cell genblk1[1].tbuf_spine_ow_I[14] ($paramod\tt_prim_tbuf\HIGH_DRIVE=s32'00000000000000000000000000000000)
+SBY  5:26:54 [tt_connectivity] base: port diode[0] of cell spine_diode_I[41] (tt_prim_diode)
+SBY  5:26:54 [tt_connectivity] base: module input spine_top_ow[15]
+SBY  5:26:54 [tt_connectivity] base: Warning: multiple conflicting drivers for tt_ctrl.\spine_top_ow [14]:
+SBY  5:26:54 [tt_connectivity] base: port z[0] of cell genblk1[1].tbuf_spine_ow_I[13] ($paramod\tt_prim_tbuf\HIGH_DRIVE=s32'00000000000000000000000000000000)
+SBY  5:26:54 [tt_connectivity] base: port diode[0] of cell spine_diode_I[40] (tt_prim_diode)
+SBY  5:26:54 [tt_connectivity] base: module input spine_top_ow[14]
+SBY  5:26:54 [tt_connectivity] base: Warning: multiple conflicting drivers for tt_ctrl.\spine_top_ow [13]:
+SBY  5:26:54 [tt_connectivity] base: port z[0] of cell genblk1[1].tbuf_spine_ow_I[12] ($paramod\tt_prim_tbuf\HIGH_DRIVE=s32'00000000000000000000000000000000)
+SBY  5:26:54 [tt_connectivity] base: port diode[0] of cell spine_diode_I[39] (tt_prim_diode)
+SBY  5:26:54 [tt_connectivity] base: module input spine_top_ow[13]
+SBY  5:26:54 [tt_connectivity] base: Warning: multiple conflicting drivers for tt_ctrl.\spine_top_ow [12]:
+SBY  5:26:54 [tt_connectivity] base: port z[0] of cell genblk1[1].tbuf_spine_ow_I[11] ($paramod\tt_prim_tbuf\HIGH_DRIVE=s32'00000000000000000000000000000000)
+SBY  5:26:54 [tt_connectivity] base: port diode[0] of cell spine_diode_I[38] (tt_prim_diode)
+SBY  5:26:54 [tt_connectivity] base: module input spine_top_ow[12]
+SBY  5:26:54 [tt_connectivity] base: Warning: multiple conflicting drivers for tt_ctrl.\spine_top_ow [11]:
+SBY  5:26:54 [tt_connectivity] base: port z[0] of cell genblk1[1].tbuf_spine_ow_I[10] ($paramod\tt_prim_tbuf\HIGH_DRIVE=s32'00000000000000000000000000000000)
+SBY  5:26:54 [tt_connectivity] base: port diode[0] of cell spine_diode_I[37] (tt_prim_diode)
+SBY  5:26:54 [tt_connectivity] base: module input spine_top_ow[11]
+SBY  5:26:54 [tt_connectivity] base: Warning: multiple conflicting drivers for tt_ctrl.\spine_top_ow [1]:
+SBY  5:26:54 [tt_connectivity] base: port z[0] of cell genblk1[1].tbuf_spine_ow_I[0] ($paramod\tt_prim_tbuf\HIGH_DRIVE=s32'00000000000000000000000000000000)
+SBY  5:26:54 [tt_connectivity] base: port diode[0] of cell spine_diode_I[27] (tt_prim_diode)
+SBY  5:26:54 [tt_connectivity] base: module input spine_top_ow[1]
+SBY  5:26:54 [tt_connectivity] base: Warning: multiple conflicting drivers for tt_ctrl.\spine_bot_ow [10]:
+SBY  5:26:54 [tt_connectivity] base: port z[0] of cell genblk1[0].tbuf_spine_ow_I[9] ($paramod\tt_prim_tbuf\HIGH_DRIVE=s32'00000000000000000000000000000000)
+SBY  5:26:54 [tt_connectivity] base: port diode[0] of cell spine_diode_I[10] (tt_prim_diode)
+SBY  5:26:54 [tt_connectivity] base: module input spine_bot_ow[10]
+SBY  5:26:54 [tt_connectivity] base: Warning: multiple conflicting drivers for tt_ctrl.\spine_bot_ow [9]:
+SBY  5:26:54 [tt_connectivity] base: port z[0] of cell genblk1[0].tbuf_spine_ow_I[8] ($paramod\tt_prim_tbuf\HIGH_DRIVE=s32'00000000000000000000000000000000)
+SBY  5:26:54 [tt_connectivity] base: port diode[0] of cell spine_diode_I[9] (tt_prim_diode)
+SBY  5:26:54 [tt_connectivity] base: module input spine_bot_ow[9]
+SBY  5:26:54 [tt_connectivity] base: Warning: multiple conflicting drivers for tt_ctrl.\spine_bot_ow [8]:
+SBY  5:26:54 [tt_connectivity] base: port z[0] of cell genblk1[0].tbuf_spine_ow_I[7] ($paramod\tt_prim_tbuf\HIGH_DRIVE=s32'00000000000000000000000000000000)
+SBY  5:26:54 [tt_connectivity] base: port diode[0] of cell spine_diode_I[8] (tt_prim_diode)
+SBY  5:26:54 [tt_connectivity] base: module input spine_bot_ow[8]
+SBY  5:26:54 [tt_connectivity] base: Warning: multiple conflicting drivers for tt_ctrl.\spine_bot_ow [7]:
+SBY  5:26:54 [tt_connectivity] base: port z[0] of cell genblk1[0].tbuf_spine_ow_I[6] ($paramod\tt_prim_tbuf\HIGH_DRIVE=s32'00000000000000000000000000000000)
+SBY  5:26:54 [tt_connectivity] base: port diode[0] of cell spine_diode_I[7] (tt_prim_diode)
+SBY  5:26:54 [tt_connectivity] base: module input spine_bot_ow[7]
+SBY  5:26:54 [tt_connectivity] base: Warning: multiple conflicting drivers for tt_ctrl.\spine_bot_ow [6]:
+SBY  5:26:54 [tt_connectivity] base: port z[0] of cell genblk1[0].tbuf_spine_ow_I[5] ($paramod\tt_prim_tbuf\HIGH_DRIVE=s32'00000000000000000000000000000000)
+SBY  5:26:54 [tt_connectivity] base: port diode[0] of cell spine_diode_I[6] (tt_prim_diode)
+SBY  5:26:54 [tt_connectivity] base: module input spine_bot_ow[6]
+SBY  5:26:54 [tt_connectivity] base: Warning: multiple conflicting drivers for tt_ctrl.\spine_bot_ow [5]:
+SBY  5:26:54 [tt_connectivity] base: port z[0] of cell genblk1[0].tbuf_spine_ow_I[4] ($paramod\tt_prim_tbuf\HIGH_DRIVE=s32'00000000000000000000000000000000)
+SBY  5:26:54 [tt_connectivity] base: port diode[0] of cell spine_diode_I[5] (tt_prim_diode)
+SBY  5:26:54 [tt_connectivity] base: module input spine_bot_ow[5]
+SBY  5:26:54 [tt_connectivity] base: Warning: multiple conflicting drivers for tt_ctrl.\spine_bot_ow [4]:
+SBY  5:26:54 [tt_connectivity] base: port z[0] of cell genblk1[0].tbuf_spine_ow_I[3] ($paramod\tt_prim_tbuf\HIGH_DRIVE=s32'00000000000000000000000000000000)
+SBY  5:26:54 [tt_connectivity] base: port diode[0] of cell spine_diode_I[4] (tt_prim_diode)
+SBY  5:26:54 [tt_connectivity] base: module input spine_bot_ow[4]
+SBY  5:26:54 [tt_connectivity] base: Warning: multiple conflicting drivers for tt_ctrl.\spine_bot_ow [3]:
+SBY  5:26:54 [tt_connectivity] base: port z[0] of cell genblk1[0].tbuf_spine_ow_I[2] ($paramod\tt_prim_tbuf\HIGH_DRIVE=s32'00000000000000000000000000000000)
+SBY  5:26:54 [tt_connectivity] base: port diode[0] of cell spine_diode_I[3] (tt_prim_diode)
+SBY  5:26:54 [tt_connectivity] base: module input spine_bot_ow[3]
+SBY  5:26:54 [tt_connectivity] base: Warning: multiple conflicting drivers for tt_ctrl.\spine_bot_ow [24]:
+SBY  5:26:54 [tt_connectivity] base: port z[0] of cell genblk1[0].tbuf_spine_ow_I[23] ($paramod\tt_prim_tbuf\HIGH_DRIVE=s32'00000000000000000000000000000000)
+SBY  5:26:54 [tt_connectivity] base: port diode[0] of cell spine_diode_I[24] (tt_prim_diode)
+SBY  5:26:54 [tt_connectivity] base: module input spine_bot_ow[24]
+SBY  5:26:54 [tt_connectivity] base: Warning: multiple conflicting drivers for tt_ctrl.\spine_bot_ow [23]:
+SBY  5:26:54 [tt_connectivity] base: port z[0] of cell genblk1[0].tbuf_spine_ow_I[22] ($paramod\tt_prim_tbuf\HIGH_DRIVE=s32'00000000000000000000000000000000)
+SBY  5:26:54 [tt_connectivity] base: port diode[0] of cell spine_diode_I[23] (tt_prim_diode)
+SBY  5:26:54 [tt_connectivity] base: module input spine_bot_ow[23]
+SBY  5:26:54 [tt_connectivity] base: Warning: multiple conflicting drivers for tt_ctrl.\spine_bot_ow [22]:
+SBY  5:26:54 [tt_connectivity] base: port z[0] of cell genblk1[0].tbuf_spine_ow_I[21] ($paramod\tt_prim_tbuf\HIGH_DRIVE=s32'00000000000000000000000000000000)
+SBY  5:26:54 [tt_connectivity] base: port diode[0] of cell spine_diode_I[22] (tt_prim_diode)
+SBY  5:26:54 [tt_connectivity] base: module input spine_bot_ow[22]
+SBY  5:26:54 [tt_connectivity] base: Warning: multiple conflicting drivers for tt_ctrl.\spine_bot_ow [21]:
+SBY  5:26:54 [tt_connectivity] base: port z[0] of cell genblk1[0].tbuf_spine_ow_I[20] ($paramod\tt_prim_tbuf\HIGH_DRIVE=s32'00000000000000000000000000000000)
+SBY  5:26:54 [tt_connectivity] base: port diode[0] of cell spine_diode_I[21] (tt_prim_diode)
+SBY  5:26:54 [tt_connectivity] base: module input spine_bot_ow[21]
+SBY  5:26:54 [tt_connectivity] base: Warning: multiple conflicting drivers for tt_ctrl.\spine_bot_ow [2]:
+SBY  5:26:54 [tt_connectivity] base: port z[0] of cell genblk1[0].tbuf_spine_ow_I[1] ($paramod\tt_prim_tbuf\HIGH_DRIVE=s32'00000000000000000000000000000000)
+SBY  5:26:54 [tt_connectivity] base: port diode[0] of cell spine_diode_I[2] (tt_prim_diode)
+SBY  5:26:54 [tt_connectivity] base: module input spine_bot_ow[2]
+SBY  5:26:54 [tt_connectivity] base: Warning: multiple conflicting drivers for tt_ctrl.\spine_bot_ow [20]:
+SBY  5:26:54 [tt_connectivity] base: port z[0] of cell genblk1[0].tbuf_spine_ow_I[19] ($paramod\tt_prim_tbuf\HIGH_DRIVE=s32'00000000000000000000000000000000)
+SBY  5:26:54 [tt_connectivity] base: port diode[0] of cell spine_diode_I[20] (tt_prim_diode)
+SBY  5:26:54 [tt_connectivity] base: module input spine_bot_ow[20]
+SBY  5:26:54 [tt_connectivity] base: Warning: multiple conflicting drivers for tt_ctrl.\spine_bot_ow [19]:
+SBY  5:26:54 [tt_connectivity] base: port z[0] of cell genblk1[0].tbuf_spine_ow_I[18] ($paramod\tt_prim_tbuf\HIGH_DRIVE=s32'00000000000000000000000000000000)
+SBY  5:26:54 [tt_connectivity] base: port diode[0] of cell spine_diode_I[19] (tt_prim_diode)
+SBY  5:26:54 [tt_connectivity] base: module input spine_bot_ow[19]
+SBY  5:26:54 [tt_connectivity] base: Warning: multiple conflicting drivers for tt_ctrl.\spine_bot_ow [18]:
+SBY  5:26:54 [tt_connectivity] base: port z[0] of cell genblk1[0].tbuf_spine_ow_I[17] ($paramod\tt_prim_tbuf\HIGH_DRIVE=s32'00000000000000000000000000000000)
+SBY  5:26:54 [tt_connectivity] base: port diode[0] of cell spine_diode_I[18] (tt_prim_diode)
+SBY  5:26:54 [tt_connectivity] base: module input spine_bot_ow[18]
+SBY  5:26:54 [tt_connectivity] base: Warning: multiple conflicting drivers for tt_ctrl.\spine_bot_ow [17]:
+SBY  5:26:54 [tt_connectivity] base: port z[0] of cell genblk1[0].tbuf_spine_ow_I[16] ($paramod\tt_prim_tbuf\HIGH_DRIVE=s32'00000000000000000000000000000000)
+SBY  5:26:54 [tt_connectivity] base: port diode[0] of cell spine_diode_I[17] (tt_prim_diode)
+SBY  5:26:54 [tt_connectivity] base: module input spine_bot_ow[17]
+SBY  5:26:54 [tt_connectivity] base: Warning: multiple conflicting drivers for tt_ctrl.\spine_bot_ow [16]:
+SBY  5:26:54 [tt_connectivity] base: port z[0] of cell genblk1[0].tbuf_spine_ow_I[15] ($paramod\tt_prim_tbuf\HIGH_DRIVE=s32'00000000000000000000000000000000)
+SBY  5:26:54 [tt_connectivity] base: port diode[0] of cell spine_diode_I[16] (tt_prim_diode)
+SBY  5:26:54 [tt_connectivity] base: module input spine_bot_ow[16]
+SBY  5:26:54 [tt_connectivity] base: Warning: multiple conflicting drivers for tt_ctrl.\spine_bot_ow [15]:
+SBY  5:26:54 [tt_connectivity] base: port z[0] of cell genblk1[0].tbuf_spine_ow_I[14] ($paramod\tt_prim_tbuf\HIGH_DRIVE=s32'00000000000000000000000000000000)
+SBY  5:26:54 [tt_connectivity] base: port diode[0] of cell spine_diode_I[15] (tt_prim_diode)
+SBY  5:26:54 [tt_connectivity] base: module input spine_bot_ow[15]
+SBY  5:26:54 [tt_connectivity] base: Warning: multiple conflicting drivers for tt_ctrl.\spine_bot_ow [14]:
+SBY  5:26:54 [tt_connectivity] base: port z[0] of cell genblk1[0].tbuf_spine_ow_I[13] ($paramod\tt_prim_tbuf\HIGH_DRIVE=s32'00000000000000000000000000000000)
+SBY  5:26:54 [tt_connectivity] base: port diode[0] of cell spine_diode_I[14] (tt_prim_diode)
+SBY  5:26:54 [tt_connectivity] base: module input spine_bot_ow[14]
+SBY  5:26:54 [tt_connectivity] base: Warning: multiple conflicting drivers for tt_ctrl.\spine_bot_ow [13]:
+SBY  5:26:54 [tt_connectivity] base: port z[0] of cell genblk1[0].tbuf_spine_ow_I[12] ($paramod\tt_prim_tbuf\HIGH_DRIVE=s32'00000000000000000000000000000000)
+SBY  5:26:54 [tt_connectivity] base: port diode[0] of cell spine_diode_I[13] (tt_prim_diode)
+SBY  5:26:54 [tt_connectivity] base: module input spine_bot_ow[13]
+SBY  5:26:54 [tt_connectivity] base: Warning: multiple conflicting drivers for tt_ctrl.\spine_bot_ow [12]:
+SBY  5:26:54 [tt_connectivity] base: port z[0] of cell genblk1[0].tbuf_spine_ow_I[11] ($paramod\tt_prim_tbuf\HIGH_DRIVE=s32'00000000000000000000000000000000)
+SBY  5:26:54 [tt_connectivity] base: port diode[0] of cell spine_diode_I[12] (tt_prim_diode)
+SBY  5:26:54 [tt_connectivity] base: module input spine_bot_ow[12]
+SBY  5:26:54 [tt_connectivity] base: Warning: multiple conflicting drivers for tt_ctrl.\spine_bot_ow [11]:
+SBY  5:26:54 [tt_connectivity] base: port z[0] of cell genblk1[0].tbuf_spine_ow_I[10] ($paramod\tt_prim_tbuf\HIGH_DRIVE=s32'00000000000000000000000000000000)
+SBY  5:26:54 [tt_connectivity] base: port diode[0] of cell spine_diode_I[11] (tt_prim_diode)
+SBY  5:26:54 [tt_connectivity] base: module input spine_bot_ow[11]
+SBY  5:26:54 [tt_connectivity] base: Warning: multiple conflicting drivers for tt_ctrl.\spine_bot_ow [1]:
+SBY  5:26:54 [tt_connectivity] base: port z[0] of cell genblk1[0].tbuf_spine_ow_I[0] ($paramod\tt_prim_tbuf\HIGH_DRIVE=s32'00000000000000000000000000000000)
+SBY  5:26:54 [tt_connectivity] base: port diode[0] of cell spine_diode_I[1] (tt_prim_diode)
+SBY  5:26:54 [tt_connectivity] base: module input spine_bot_ow[1]
+SBY  5:26:54 [tt_connectivity] base: Warning: Wire tt_formal.\io_in [43] is used but has no driver.
+SBY  5:26:54 [tt_connectivity] base: Warning: Wire tt_formal.\io_in [42] is used but has no driver.
+SBY  5:26:54 [tt_connectivity] base: Warning: Wire tt_formal.\io_in [41] is used but has no driver.
+SBY  5:26:54 [tt_connectivity] base: Warning: Wire tt_formal.\io_in [40] is used but has no driver.
+SBY  5:26:54 [tt_connectivity] base: Warning: Wire tt_formal.\io_in [39] is used but has no driver.
+SBY  5:26:54 [tt_connectivity] base: Warning: Wire tt_formal.\io_in [38] is used but has no driver.
+SBY  5:26:54 [tt_connectivity] base: Warning: Wire tt_formal.\io_in [37] is used but has no driver.
+SBY  5:26:54 [tt_connectivity] base: Warning: Wire tt_formal.\io_in [36] is used but has no driver.
+SBY  5:26:54 [tt_connectivity] base: Warning: Wire tt_formal.\io_in [35] is used but has no driver.
+SBY  5:26:54 [tt_connectivity] base: Warning: Wire tt_formal.\io_in [34] is used but has no driver.
+SBY  5:26:54 [tt_connectivity] base: Warning: Wire tt_formal.\io_in [33] is used but has no driver.
+SBY  5:26:54 [tt_connectivity] base: Warning: Wire tt_formal.\io_in [32] is used but has no driver.
+SBY  5:26:54 [tt_connectivity] base: Warning: Wire tt_formal.\io_in [31] is used but has no driver.
+SBY  5:26:54 [tt_connectivity] base: Warning: Wire tt_formal.\io_in [30] is used but has no driver.
+SBY  5:26:54 [tt_connectivity] base: Warning: Wire tt_formal.\io_in [29] is used but has no driver.
+SBY  5:26:54 [tt_connectivity] base: Warning: Wire tt_formal.\io_in [28] is used but has no driver.
+SBY  5:26:54 [tt_connectivity] base: Warning: Wire tt_formal.\io_in [27] is used but has no driver.
+SBY  5:26:54 [tt_connectivity] base: Warning: Wire tt_formal.\io_in [26] is used but has no driver.
+SBY  5:26:54 [tt_connectivity] base: Warning: Wire tt_formal.\io_in [25] is used but has no driver.
+SBY  5:26:54 [tt_connectivity] base: Warning: Wire tt_formal.\io_in [24] is used but has no driver.
+SBY  5:26:54 [tt_connectivity] base: Warning: Wire tt_formal.\io_in [15] is used but has no driver.
+SBY  5:26:54 [tt_connectivity] base: Warning: Wire tt_formal.\io_in [14] is used but has no driver.
+SBY  5:26:54 [tt_connectivity] base: Warning: Wire tt_formal.\io_in [12] is used but has no driver.
+SBY  5:26:54 [tt_connectivity] base: Warning: Wire tt_formal.\io_in [11] is used but has no driver.
+SBY  5:26:54 [tt_connectivity] base: Warning: Wire tt_formal.\io_in [10] is used but has no driver.
+SBY  5:26:54 [tt_connectivity] base: Warning: Wire tt_formal.\io_in [9] is used but has no driver.
+SBY  5:26:54 [tt_connectivity] base: Warning: Wire tt_formal.\io_in [8] is used but has no driver.
+SBY  5:26:54 [tt_connectivity] base: Warning: Wire tt_formal.\io_in [7] is used but has no driver.
+SBY  5:26:54 [tt_connectivity] base: Warning: multiple conflicting drivers for tt_mux.\bus_ow [9]:
+SBY  5:26:54 [tt_connectivity] base: port z[0] of cell block[0].genblk1.tbuf_spine_ow_I[9] ($paramod\tt_prim_tbuf\HIGH_DRIVE=s32'00000000000000000000000000000001)
+SBY  5:26:54 [tt_connectivity] base: port z[0] of cell block[12].genblk1.tbuf_spine_ow_I[9] ($paramod\tt_prim_tbuf\HIGH_DRIVE=s32'00000000000000000000000000000001)
+SBY  5:26:54 [tt_connectivity] base: port z[0] of cell block[4].genblk1.tbuf_spine_ow_I[9] ($paramod\tt_prim_tbuf\HIGH_DRIVE=s32'00000000000000000000000000000001)
+SBY  5:26:54 [tt_connectivity] base: port z[0] of cell block[8].genblk1.tbuf_spine_ow_I[9] ($paramod\tt_prim_tbuf\HIGH_DRIVE=s32'00000000000000000000000000000001)
+SBY  5:26:54 [tt_connectivity] base: port z[0] of cell bus_pull_ow_I[9] ($paramod\tt_prim_tbuf\HIGH_DRIVE=s32'00000000000000000000000000000000)
+SBY  5:26:54 [tt_connectivity] base: Warning: multiple conflicting drivers for tt_mux.\bus_ow [8]:
+SBY  5:26:54 [tt_connectivity] base: port z[0] of cell block[0].genblk1.tbuf_spine_ow_I[8] ($paramod\tt_prim_tbuf\HIGH_DRIVE=s32'00000000000000000000000000000001)
+SBY  5:26:54 [tt_connectivity] base: port z[0] of cell block[12].genblk1.tbuf_spine_ow_I[8] ($paramod\tt_prim_tbuf\HIGH_DRIVE=s32'00000000000000000000000000000001)
+SBY  5:26:54 [tt_connectivity] base: port z[0] of cell block[4].genblk1.tbuf_spine_ow_I[8] ($paramod\tt_prim_tbuf\HIGH_DRIVE=s32'00000000000000000000000000000001)
+SBY  5:26:54 [tt_connectivity] base: port z[0] of cell block[8].genblk1.tbuf_spine_ow_I[8] ($paramod\tt_prim_tbuf\HIGH_DRIVE=s32'00000000000000000000000000000001)
+SBY  5:26:54 [tt_connectivity] base: port z[0] of cell bus_pull_ow_I[8] ($paramod\tt_prim_tbuf\HIGH_DRIVE=s32'00000000000000000000000000000000)
+SBY  5:26:54 [tt_connectivity] base: Warning: multiple conflicting drivers for tt_mux.\bus_ow [7]:
+SBY  5:26:54 [tt_connectivity] base: port z[0] of cell block[0].genblk1.tbuf_spine_ow_I[7] ($paramod\tt_prim_tbuf\HIGH_DRIVE=s32'00000000000000000000000000000001)
+SBY  5:26:54 [tt_connectivity] base: port z[0] of cell block[12].genblk1.tbuf_spine_ow_I[7] ($paramod\tt_prim_tbuf\HIGH_DRIVE=s32'00000000000000000000000000000001)
+SBY  5:26:54 [tt_connectivity] base: port z[0] of cell block[4].genblk1.tbuf_spine_ow_I[7] ($paramod\tt_prim_tbuf\HIGH_DRIVE=s32'00000000000000000000000000000001)
+SBY  5:26:54 [tt_connectivity] base: port z[0] of cell block[8].genblk1.tbuf_spine_ow_I[7] ($paramod\tt_prim_tbuf\HIGH_DRIVE=s32'00000000000000000000000000000001)
+SBY  5:26:54 [tt_connectivity] base: port z[0] of cell bus_pull_ow_I[7] ($paramod\tt_prim_tbuf\HIGH_DRIVE=s32'00000000000000000000000000000000)
+SBY  5:26:54 [tt_connectivity] base: Warning: multiple conflicting drivers for tt_mux.\bus_ow [6]:
+SBY  5:26:54 [tt_connectivity] base: port z[0] of cell block[0].genblk1.tbuf_spine_ow_I[6] ($paramod\tt_prim_tbuf\HIGH_DRIVE=s32'00000000000000000000000000000001)
+SBY  5:26:54 [tt_connectivity] base: port z[0] of cell block[12].genblk1.tbuf_spine_ow_I[6] ($paramod\tt_prim_tbuf\HIGH_DRIVE=s32'00000000000000000000000000000001)
+SBY  5:26:54 [tt_connectivity] base: port z[0] of cell block[4].genblk1.tbuf_spine_ow_I[6] ($paramod\tt_prim_tbuf\HIGH_DRIVE=s32'00000000000000000000000000000001)
+SBY  5:26:54 [tt_connectivity] base: port z[0] of cell block[8].genblk1.tbuf_spine_ow_I[6] ($paramod\tt_prim_tbuf\HIGH_DRIVE=s32'00000000000000000000000000000001)
+SBY  5:26:54 [tt_connectivity] base: port z[0] of cell bus_pull_ow_I[6] ($paramod\tt_prim_tbuf\HIGH_DRIVE=s32'00000000000000000000000000000000)
+SBY  5:26:54 [tt_connectivity] base: Warning: multiple conflicting drivers for tt_mux.\bus_ow [5]:
+SBY  5:26:54 [tt_connectivity] base: port z[0] of cell block[0].genblk1.tbuf_spine_ow_I[5] ($paramod\tt_prim_tbuf\HIGH_DRIVE=s32'00000000000000000000000000000001)
+SBY  5:26:54 [tt_connectivity] base: port z[0] of cell block[12].genblk1.tbuf_spine_ow_I[5] ($paramod\tt_prim_tbuf\HIGH_DRIVE=s32'00000000000000000000000000000001)
+SBY  5:26:54 [tt_connectivity] base: port z[0] of cell block[4].genblk1.tbuf_spine_ow_I[5] ($paramod\tt_prim_tbuf\HIGH_DRIVE=s32'00000000000000000000000000000001)
+SBY  5:26:54 [tt_connectivity] base: port z[0] of cell block[8].genblk1.tbuf_spine_ow_I[5] ($paramod\tt_prim_tbuf\HIGH_DRIVE=s32'00000000000000000000000000000001)
+SBY  5:26:54 [tt_connectivity] base: port z[0] of cell bus_pull_ow_I[5] ($paramod\tt_prim_tbuf\HIGH_DRIVE=s32'00000000000000000000000000000000)
+SBY  5:26:54 [tt_connectivity] base: Warning: multiple conflicting drivers for tt_mux.\bus_ow [4]:
+SBY  5:26:54 [tt_connectivity] base: port z[0] of cell block[0].genblk1.tbuf_spine_ow_I[4] ($paramod\tt_prim_tbuf\HIGH_DRIVE=s32'00000000000000000000000000000001)
+SBY  5:26:54 [tt_connectivity] base: port z[0] of cell block[12].genblk1.tbuf_spine_ow_I[4] ($paramod\tt_prim_tbuf\HIGH_DRIVE=s32'00000000000000000000000000000001)
+SBY  5:26:54 [tt_connectivity] base: port z[0] of cell block[4].genblk1.tbuf_spine_ow_I[4] ($paramod\tt_prim_tbuf\HIGH_DRIVE=s32'00000000000000000000000000000001)
+SBY  5:26:54 [tt_connectivity] base: port z[0] of cell block[8].genblk1.tbuf_spine_ow_I[4] ($paramod\tt_prim_tbuf\HIGH_DRIVE=s32'00000000000000000000000000000001)
+SBY  5:26:54 [tt_connectivity] base: port z[0] of cell bus_pull_ow_I[4] ($paramod\tt_prim_tbuf\HIGH_DRIVE=s32'00000000000000000000000000000000)
+SBY  5:26:54 [tt_connectivity] base: Warning: multiple conflicting drivers for tt_mux.\bus_ow [3]:
+SBY  5:26:54 [tt_connectivity] base: port z[0] of cell block[0].genblk1.tbuf_spine_ow_I[3] ($paramod\tt_prim_tbuf\HIGH_DRIVE=s32'00000000000000000000000000000001)
+SBY  5:26:54 [tt_connectivity] base: port z[0] of cell block[12].genblk1.tbuf_spine_ow_I[3] ($paramod\tt_prim_tbuf\HIGH_DRIVE=s32'00000000000000000000000000000001)
+SBY  5:26:54 [tt_connectivity] base: port z[0] of cell block[4].genblk1.tbuf_spine_ow_I[3] ($paramod\tt_prim_tbuf\HIGH_DRIVE=s32'00000000000000000000000000000001)
+SBY  5:26:54 [tt_connectivity] base: port z[0] of cell block[8].genblk1.tbuf_spine_ow_I[3] ($paramod\tt_prim_tbuf\HIGH_DRIVE=s32'00000000000000000000000000000001)
+SBY  5:26:54 [tt_connectivity] base: port z[0] of cell bus_pull_ow_I[3] ($paramod\tt_prim_tbuf\HIGH_DRIVE=s32'00000000000000000000000000000000)
+SBY  5:26:54 [tt_connectivity] base: Warning: multiple conflicting drivers for tt_mux.\bus_ow [2]:
+SBY  5:26:54 [tt_connectivity] base: port z[0] of cell block[0].genblk1.tbuf_spine_ow_I[2] ($paramod\tt_prim_tbuf\HIGH_DRIVE=s32'00000000000000000000000000000001)
+SBY  5:26:54 [tt_connectivity] base: port z[0] of cell block[12].genblk1.tbuf_spine_ow_I[2] ($paramod\tt_prim_tbuf\HIGH_DRIVE=s32'00000000000000000000000000000001)
+SBY  5:26:54 [tt_connectivity] base: port z[0] of cell block[4].genblk1.tbuf_spine_ow_I[2] ($paramod\tt_prim_tbuf\HIGH_DRIVE=s32'00000000000000000000000000000001)
+SBY  5:26:54 [tt_connectivity] base: port z[0] of cell block[8].genblk1.tbuf_spine_ow_I[2] ($paramod\tt_prim_tbuf\HIGH_DRIVE=s32'00000000000000000000000000000001)
+SBY  5:26:54 [tt_connectivity] base: port z[0] of cell bus_pull_ow_I[2] ($paramod\tt_prim_tbuf\HIGH_DRIVE=s32'00000000000000000000000000000000)
+SBY  5:26:54 [tt_connectivity] base: Warning: multiple conflicting drivers for tt_mux.\bus_ow [23]:
+SBY  5:26:54 [tt_connectivity] base: port z[0] of cell block[0].genblk1.tbuf_spine_ow_I[23] ($paramod\tt_prim_tbuf\HIGH_DRIVE=s32'00000000000000000000000000000001)
+SBY  5:26:54 [tt_connectivity] base: port z[0] of cell block[12].genblk1.tbuf_spine_ow_I[23] ($paramod\tt_prim_tbuf\HIGH_DRIVE=s32'00000000000000000000000000000001)
+SBY  5:26:54 [tt_connectivity] base: port z[0] of cell block[4].genblk1.tbuf_spine_ow_I[23] ($paramod\tt_prim_tbuf\HIGH_DRIVE=s32'00000000000000000000000000000001)
+SBY  5:26:54 [tt_connectivity] base: port z[0] of cell block[8].genblk1.tbuf_spine_ow_I[23] ($paramod\tt_prim_tbuf\HIGH_DRIVE=s32'00000000000000000000000000000001)
+SBY  5:26:54 [tt_connectivity] base: port z[0] of cell bus_pull_ow_I[23] ($paramod\tt_prim_tbuf\HIGH_DRIVE=s32'00000000000000000000000000000000)
+SBY  5:26:54 [tt_connectivity] base: Warning: multiple conflicting drivers for tt_mux.\bus_ow [22]:
+SBY  5:26:54 [tt_connectivity] base: port z[0] of cell block[0].genblk1.tbuf_spine_ow_I[22] ($paramod\tt_prim_tbuf\HIGH_DRIVE=s32'00000000000000000000000000000001)
+SBY  5:26:54 [tt_connectivity] base: port z[0] of cell block[12].genblk1.tbuf_spine_ow_I[22] ($paramod\tt_prim_tbuf\HIGH_DRIVE=s32'00000000000000000000000000000001)
+SBY  5:26:54 [tt_connectivity] base: port z[0] of cell block[4].genblk1.tbuf_spine_ow_I[22] ($paramod\tt_prim_tbuf\HIGH_DRIVE=s32'00000000000000000000000000000001)
+SBY  5:26:54 [tt_connectivity] base: port z[0] of cell block[8].genblk1.tbuf_spine_ow_I[22] ($paramod\tt_prim_tbuf\HIGH_DRIVE=s32'00000000000000000000000000000001)
+SBY  5:26:54 [tt_connectivity] base: port z[0] of cell bus_pull_ow_I[22] ($paramod\tt_prim_tbuf\HIGH_DRIVE=s32'00000000000000000000000000000000)
+SBY  5:26:54 [tt_connectivity] base: Warning: multiple conflicting drivers for tt_mux.\bus_ow [21]:
+SBY  5:26:54 [tt_connectivity] base: port z[0] of cell block[0].genblk1.tbuf_spine_ow_I[21] ($paramod\tt_prim_tbuf\HIGH_DRIVE=s32'00000000000000000000000000000001)
+SBY  5:26:54 [tt_connectivity] base: port z[0] of cell block[12].genblk1.tbuf_spine_ow_I[21] ($paramod\tt_prim_tbuf\HIGH_DRIVE=s32'00000000000000000000000000000001)
+SBY  5:26:54 [tt_connectivity] base: port z[0] of cell block[4].genblk1.tbuf_spine_ow_I[21] ($paramod\tt_prim_tbuf\HIGH_DRIVE=s32'00000000000000000000000000000001)
+SBY  5:26:54 [tt_connectivity] base: port z[0] of cell block[8].genblk1.tbuf_spine_ow_I[21] ($paramod\tt_prim_tbuf\HIGH_DRIVE=s32'00000000000000000000000000000001)
+SBY  5:26:54 [tt_connectivity] base: port z[0] of cell bus_pull_ow_I[21] ($paramod\tt_prim_tbuf\HIGH_DRIVE=s32'00000000000000000000000000000000)
+SBY  5:26:54 [tt_connectivity] base: Warning: multiple conflicting drivers for tt_mux.\bus_ow [20]:
+SBY  5:26:54 [tt_connectivity] base: port z[0] of cell block[0].genblk1.tbuf_spine_ow_I[20] ($paramod\tt_prim_tbuf\HIGH_DRIVE=s32'00000000000000000000000000000001)
+SBY  5:26:54 [tt_connectivity] base: port z[0] of cell block[12].genblk1.tbuf_spine_ow_I[20] ($paramod\tt_prim_tbuf\HIGH_DRIVE=s32'00000000000000000000000000000001)
+SBY  5:26:54 [tt_connectivity] base: port z[0] of cell block[4].genblk1.tbuf_spine_ow_I[20] ($paramod\tt_prim_tbuf\HIGH_DRIVE=s32'00000000000000000000000000000001)
+SBY  5:26:54 [tt_connectivity] base: port z[0] of cell block[8].genblk1.tbuf_spine_ow_I[20] ($paramod\tt_prim_tbuf\HIGH_DRIVE=s32'00000000000000000000000000000001)
+SBY  5:26:54 [tt_connectivity] base: port z[0] of cell bus_pull_ow_I[20] ($paramod\tt_prim_tbuf\HIGH_DRIVE=s32'00000000000000000000000000000000)
+SBY  5:26:54 [tt_connectivity] base: Warning: multiple conflicting drivers for tt_mux.\bus_ow [1]:
+SBY  5:26:54 [tt_connectivity] base: port z[0] of cell block[0].genblk1.tbuf_spine_ow_I[1] ($paramod\tt_prim_tbuf\HIGH_DRIVE=s32'00000000000000000000000000000001)
+SBY  5:26:54 [tt_connectivity] base: port z[0] of cell block[12].genblk1.tbuf_spine_ow_I[1] ($paramod\tt_prim_tbuf\HIGH_DRIVE=s32'00000000000000000000000000000001)
+SBY  5:26:54 [tt_connectivity] base: port z[0] of cell block[4].genblk1.tbuf_spine_ow_I[1] ($paramod\tt_prim_tbuf\HIGH_DRIVE=s32'00000000000000000000000000000001)
+SBY  5:26:54 [tt_connectivity] base: port z[0] of cell block[8].genblk1.tbuf_spine_ow_I[1] ($paramod\tt_prim_tbuf\HIGH_DRIVE=s32'00000000000000000000000000000001)
+SBY  5:26:54 [tt_connectivity] base: port z[0] of cell bus_pull_ow_I[1] ($paramod\tt_prim_tbuf\HIGH_DRIVE=s32'00000000000000000000000000000000)
+SBY  5:26:54 [tt_connectivity] base: Warning: multiple conflicting drivers for tt_mux.\bus_ow [19]:
+SBY  5:26:54 [tt_connectivity] base: port z[0] of cell block[0].genblk1.tbuf_spine_ow_I[19] ($paramod\tt_prim_tbuf\HIGH_DRIVE=s32'00000000000000000000000000000001)
+SBY  5:26:54 [tt_connectivity] base: port z[0] of cell block[12].genblk1.tbuf_spine_ow_I[19] ($paramod\tt_prim_tbuf\HIGH_DRIVE=s32'00000000000000000000000000000001)
+SBY  5:26:54 [tt_connectivity] base: port z[0] of cell block[4].genblk1.tbuf_spine_ow_I[19] ($paramod\tt_prim_tbuf\HIGH_DRIVE=s32'00000000000000000000000000000001)
+SBY  5:26:54 [tt_connectivity] base: port z[0] of cell block[8].genblk1.tbuf_spine_ow_I[19] ($paramod\tt_prim_tbuf\HIGH_DRIVE=s32'00000000000000000000000000000001)
+SBY  5:26:54 [tt_connectivity] base: port z[0] of cell bus_pull_ow_I[19] ($paramod\tt_prim_tbuf\HIGH_DRIVE=s32'00000000000000000000000000000000)
+SBY  5:26:54 [tt_connectivity] base: Warning: multiple conflicting drivers for tt_mux.\bus_ow [18]:
+SBY  5:26:54 [tt_connectivity] base: port z[0] of cell block[0].genblk1.tbuf_spine_ow_I[18] ($paramod\tt_prim_tbuf\HIGH_DRIVE=s32'00000000000000000000000000000001)
+SBY  5:26:54 [tt_connectivity] base: port z[0] of cell block[12].genblk1.tbuf_spine_ow_I[18] ($paramod\tt_prim_tbuf\HIGH_DRIVE=s32'00000000000000000000000000000001)
+SBY  5:26:54 [tt_connectivity] base: port z[0] of cell block[4].genblk1.tbuf_spine_ow_I[18] ($paramod\tt_prim_tbuf\HIGH_DRIVE=s32'00000000000000000000000000000001)
+SBY  5:26:54 [tt_connectivity] base: port z[0] of cell block[8].genblk1.tbuf_spine_ow_I[18] ($paramod\tt_prim_tbuf\HIGH_DRIVE=s32'00000000000000000000000000000001)
+SBY  5:26:54 [tt_connectivity] base: port z[0] of cell bus_pull_ow_I[18] ($paramod\tt_prim_tbuf\HIGH_DRIVE=s32'00000000000000000000000000000000)
+SBY  5:26:54 [tt_connectivity] base: Warning: multiple conflicting drivers for tt_mux.\bus_ow [17]:
+SBY  5:26:54 [tt_connectivity] base: port z[0] of cell block[0].genblk1.tbuf_spine_ow_I[17] ($paramod\tt_prim_tbuf\HIGH_DRIVE=s32'00000000000000000000000000000001)
+SBY  5:26:54 [tt_connectivity] base: port z[0] of cell block[12].genblk1.tbuf_spine_ow_I[17] ($paramod\tt_prim_tbuf\HIGH_DRIVE=s32'00000000000000000000000000000001)
+SBY  5:26:54 [tt_connectivity] base: port z[0] of cell block[4].genblk1.tbuf_spine_ow_I[17] ($paramod\tt_prim_tbuf\HIGH_DRIVE=s32'00000000000000000000000000000001)
+SBY  5:26:54 [tt_connectivity] base: port z[0] of cell block[8].genblk1.tbuf_spine_ow_I[17] ($paramod\tt_prim_tbuf\HIGH_DRIVE=s32'00000000000000000000000000000001)
+SBY  5:26:54 [tt_connectivity] base: port z[0] of cell bus_pull_ow_I[17] ($paramod\tt_prim_tbuf\HIGH_DRIVE=s32'00000000000000000000000000000000)
+SBY  5:26:54 [tt_connectivity] base: Warning: multiple conflicting drivers for tt_mux.\bus_ow [16]:
+SBY  5:26:54 [tt_connectivity] base: port z[0] of cell block[0].genblk1.tbuf_spine_ow_I[16] ($paramod\tt_prim_tbuf\HIGH_DRIVE=s32'00000000000000000000000000000001)
+SBY  5:26:54 [tt_connectivity] base: port z[0] of cell block[12].genblk1.tbuf_spine_ow_I[16] ($paramod\tt_prim_tbuf\HIGH_DRIVE=s32'00000000000000000000000000000001)
+SBY  5:26:54 [tt_connectivity] base: port z[0] of cell block[4].genblk1.tbuf_spine_ow_I[16] ($paramod\tt_prim_tbuf\HIGH_DRIVE=s32'00000000000000000000000000000001)
+SBY  5:26:54 [tt_connectivity] base: port z[0] of cell block[8].genblk1.tbuf_spine_ow_I[16] ($paramod\tt_prim_tbuf\HIGH_DRIVE=s32'00000000000000000000000000000001)
+SBY  5:26:54 [tt_connectivity] base: port z[0] of cell bus_pull_ow_I[16] ($paramod\tt_prim_tbuf\HIGH_DRIVE=s32'00000000000000000000000000000000)
+SBY  5:26:54 [tt_connectivity] base: Warning: multiple conflicting drivers for tt_mux.\bus_ow [15]:
+SBY  5:26:54 [tt_connectivity] base: port z[0] of cell block[0].genblk1.tbuf_spine_ow_I[15] ($paramod\tt_prim_tbuf\HIGH_DRIVE=s32'00000000000000000000000000000001)
+SBY  5:26:54 [tt_connectivity] base: port z[0] of cell block[12].genblk1.tbuf_spine_ow_I[15] ($paramod\tt_prim_tbuf\HIGH_DRIVE=s32'00000000000000000000000000000001)
+SBY  5:26:54 [tt_connectivity] base: port z[0] of cell block[4].genblk1.tbuf_spine_ow_I[15] ($paramod\tt_prim_tbuf\HIGH_DRIVE=s32'00000000000000000000000000000001)
+SBY  5:26:54 [tt_connectivity] base: port z[0] of cell block[8].genblk1.tbuf_spine_ow_I[15] ($paramod\tt_prim_tbuf\HIGH_DRIVE=s32'00000000000000000000000000000001)
+SBY  5:26:54 [tt_connectivity] base: port z[0] of cell bus_pull_ow_I[15] ($paramod\tt_prim_tbuf\HIGH_DRIVE=s32'00000000000000000000000000000000)
+SBY  5:26:54 [tt_connectivity] base: Warning: multiple conflicting drivers for tt_mux.\bus_ow [14]:
+SBY  5:26:54 [tt_connectivity] base: port z[0] of cell block[0].genblk1.tbuf_spine_ow_I[14] ($paramod\tt_prim_tbuf\HIGH_DRIVE=s32'00000000000000000000000000000001)
+SBY  5:26:54 [tt_connectivity] base: port z[0] of cell block[12].genblk1.tbuf_spine_ow_I[14] ($paramod\tt_prim_tbuf\HIGH_DRIVE=s32'00000000000000000000000000000001)
+SBY  5:26:54 [tt_connectivity] base: port z[0] of cell block[4].genblk1.tbuf_spine_ow_I[14] ($paramod\tt_prim_tbuf\HIGH_DRIVE=s32'00000000000000000000000000000001)
+SBY  5:26:54 [tt_connectivity] base: port z[0] of cell block[8].genblk1.tbuf_spine_ow_I[14] ($paramod\tt_prim_tbuf\HIGH_DRIVE=s32'00000000000000000000000000000001)
+SBY  5:26:54 [tt_connectivity] base: port z[0] of cell bus_pull_ow_I[14] ($paramod\tt_prim_tbuf\HIGH_DRIVE=s32'00000000000000000000000000000000)
+SBY  5:26:54 [tt_connectivity] base: Warning: multiple conflicting drivers for tt_mux.\bus_ow [13]:
+SBY  5:26:54 [tt_connectivity] base: port z[0] of cell block[0].genblk1.tbuf_spine_ow_I[13] ($paramod\tt_prim_tbuf\HIGH_DRIVE=s32'00000000000000000000000000000001)
+SBY  5:26:54 [tt_connectivity] base: port z[0] of cell block[12].genblk1.tbuf_spine_ow_I[13] ($paramod\tt_prim_tbuf\HIGH_DRIVE=s32'00000000000000000000000000000001)
+SBY  5:26:54 [tt_connectivity] base: port z[0] of cell block[4].genblk1.tbuf_spine_ow_I[13] ($paramod\tt_prim_tbuf\HIGH_DRIVE=s32'00000000000000000000000000000001)
+SBY  5:26:54 [tt_connectivity] base: port z[0] of cell block[8].genblk1.tbuf_spine_ow_I[13] ($paramod\tt_prim_tbuf\HIGH_DRIVE=s32'00000000000000000000000000000001)
+SBY  5:26:54 [tt_connectivity] base: port z[0] of cell bus_pull_ow_I[13] ($paramod\tt_prim_tbuf\HIGH_DRIVE=s32'00000000000000000000000000000000)
+SBY  5:26:54 [tt_connectivity] base: Warning: multiple conflicting drivers for tt_mux.\bus_ow [12]:
+SBY  5:26:54 [tt_connectivity] base: port z[0] of cell block[0].genblk1.tbuf_spine_ow_I[12] ($paramod\tt_prim_tbuf\HIGH_DRIVE=s32'00000000000000000000000000000001)
+SBY  5:26:54 [tt_connectivity] base: port z[0] of cell block[12].genblk1.tbuf_spine_ow_I[12] ($paramod\tt_prim_tbuf\HIGH_DRIVE=s32'00000000000000000000000000000001)
+SBY  5:26:54 [tt_connectivity] base: port z[0] of cell block[4].genblk1.tbuf_spine_ow_I[12] ($paramod\tt_prim_tbuf\HIGH_DRIVE=s32'00000000000000000000000000000001)
+SBY  5:26:54 [tt_connectivity] base: port z[0] of cell block[8].genblk1.tbuf_spine_ow_I[12] ($paramod\tt_prim_tbuf\HIGH_DRIVE=s32'00000000000000000000000000000001)
+SBY  5:26:54 [tt_connectivity] base: port z[0] of cell bus_pull_ow_I[12] ($paramod\tt_prim_tbuf\HIGH_DRIVE=s32'00000000000000000000000000000000)
+SBY  5:26:54 [tt_connectivity] base: Warning: multiple conflicting drivers for tt_mux.\bus_ow [11]:
+SBY  5:26:54 [tt_connectivity] base: port z[0] of cell block[0].genblk1.tbuf_spine_ow_I[11] ($paramod\tt_prim_tbuf\HIGH_DRIVE=s32'00000000000000000000000000000001)
+SBY  5:26:54 [tt_connectivity] base: port z[0] of cell block[12].genblk1.tbuf_spine_ow_I[11] ($paramod\tt_prim_tbuf\HIGH_DRIVE=s32'00000000000000000000000000000001)
+SBY  5:26:54 [tt_connectivity] base: port z[0] of cell block[4].genblk1.tbuf_spine_ow_I[11] ($paramod\tt_prim_tbuf\HIGH_DRIVE=s32'00000000000000000000000000000001)
+SBY  5:26:54 [tt_connectivity] base: port z[0] of cell block[8].genblk1.tbuf_spine_ow_I[11] ($paramod\tt_prim_tbuf\HIGH_DRIVE=s32'00000000000000000000000000000001)
+SBY  5:26:54 [tt_connectivity] base: port z[0] of cell bus_pull_ow_I[11] ($paramod\tt_prim_tbuf\HIGH_DRIVE=s32'00000000000000000000000000000000)
+SBY  5:26:54 [tt_connectivity] base: Warning: multiple conflicting drivers for tt_mux.\bus_ow [10]:
+SBY  5:26:54 [tt_connectivity] base: port z[0] of cell block[0].genblk1.tbuf_spine_ow_I[10] ($paramod\tt_prim_tbuf\HIGH_DRIVE=s32'00000000000000000000000000000001)
+SBY  5:26:54 [tt_connectivity] base: port z[0] of cell block[12].genblk1.tbuf_spine_ow_I[10] ($paramod\tt_prim_tbuf\HIGH_DRIVE=s32'00000000000000000000000000000001)
+SBY  5:26:54 [tt_connectivity] base: port z[0] of cell block[4].genblk1.tbuf_spine_ow_I[10] ($paramod\tt_prim_tbuf\HIGH_DRIVE=s32'00000000000000000000000000000001)
+SBY  5:26:54 [tt_connectivity] base: port z[0] of cell block[8].genblk1.tbuf_spine_ow_I[10] ($paramod\tt_prim_tbuf\HIGH_DRIVE=s32'00000000000000000000000000000001)
+SBY  5:26:54 [tt_connectivity] base: port z[0] of cell bus_pull_ow_I[10] ($paramod\tt_prim_tbuf\HIGH_DRIVE=s32'00000000000000000000000000000000)
+SBY  5:26:54 [tt_connectivity] base: Warning: multiple conflicting drivers for tt_mux.\bus_ow [0]:
+SBY  5:26:54 [tt_connectivity] base: port z[0] of cell block[0].genblk1.tbuf_spine_ow_I[0] ($paramod\tt_prim_tbuf\HIGH_DRIVE=s32'00000000000000000000000000000001)
+SBY  5:26:54 [tt_connectivity] base: port z[0] of cell block[12].genblk1.tbuf_spine_ow_I[0] ($paramod\tt_prim_tbuf\HIGH_DRIVE=s32'00000000000000000000000000000001)
+SBY  5:26:54 [tt_connectivity] base: port z[0] of cell block[4].genblk1.tbuf_spine_ow_I[0] ($paramod\tt_prim_tbuf\HIGH_DRIVE=s32'00000000000000000000000000000001)
+SBY  5:26:54 [tt_connectivity] base: port z[0] of cell block[8].genblk1.tbuf_spine_ow_I[0] ($paramod\tt_prim_tbuf\HIGH_DRIVE=s32'00000000000000000000000000000001)
+SBY  5:26:54 [tt_connectivity] base: port z[0] of cell bus_pull_ow_I[0] ($paramod\tt_prim_tbuf\HIGH_DRIVE=s32'00000000000000000000000000000000)
+SBY  5:26:54 [tt_connectivity] base: Warning: multiple conflicting drivers for tt_top.\branch[13].check_mask.l_spine_ow [25]:
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[25] of cell branch[13].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[25] of cell branch[15].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[25] of cell branch[17].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[25] of cell branch[19].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[25] of cell branch[1].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[25] of cell branch[21].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[25] of cell branch[23].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[25] of cell branch[25].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[25] of cell branch[27].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[25] of cell branch[29].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[25] of cell branch[31].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[25] of cell branch[3].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[25] of cell branch[5].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[25] of cell branch[7].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[25] of cell branch[9].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: Warning: multiple conflicting drivers for tt_top.\branch[13].check_mask.l_spine_ow [24]:
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[24] of cell branch[13].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[24] of cell branch[15].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[24] of cell branch[17].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[24] of cell branch[19].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[24] of cell branch[1].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[24] of cell branch[21].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[24] of cell branch[23].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[24] of cell branch[25].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[24] of cell branch[27].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[24] of cell branch[29].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[24] of cell branch[31].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[24] of cell branch[3].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[24] of cell branch[5].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[24] of cell branch[7].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[24] of cell branch[9].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: Warning: multiple conflicting drivers for tt_top.\branch[13].check_mask.l_spine_ow [23]:
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[23] of cell branch[13].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[23] of cell branch[15].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[23] of cell branch[17].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[23] of cell branch[19].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[23] of cell branch[1].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[23] of cell branch[21].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[23] of cell branch[23].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[23] of cell branch[25].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[23] of cell branch[27].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[23] of cell branch[29].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[23] of cell branch[31].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[23] of cell branch[3].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[23] of cell branch[5].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[23] of cell branch[7].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[23] of cell branch[9].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: Warning: multiple conflicting drivers for tt_top.\branch[13].check_mask.l_spine_ow [22]:
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[22] of cell branch[13].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[22] of cell branch[15].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[22] of cell branch[17].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[22] of cell branch[19].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[22] of cell branch[1].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[22] of cell branch[21].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[22] of cell branch[23].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[22] of cell branch[25].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[22] of cell branch[27].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[22] of cell branch[29].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[22] of cell branch[31].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[22] of cell branch[3].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[22] of cell branch[5].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[22] of cell branch[7].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[22] of cell branch[9].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: Warning: multiple conflicting drivers for tt_top.\branch[13].check_mask.l_spine_ow [21]:
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[21] of cell branch[13].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[21] of cell branch[15].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[21] of cell branch[17].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[21] of cell branch[19].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[21] of cell branch[1].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[21] of cell branch[21].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[21] of cell branch[23].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[21] of cell branch[25].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[21] of cell branch[27].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[21] of cell branch[29].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[21] of cell branch[31].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[21] of cell branch[3].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[21] of cell branch[5].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[21] of cell branch[7].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[21] of cell branch[9].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: Warning: multiple conflicting drivers for tt_top.\branch[13].check_mask.l_spine_ow [20]:
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[20] of cell branch[13].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[20] of cell branch[15].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[20] of cell branch[17].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[20] of cell branch[19].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[20] of cell branch[1].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[20] of cell branch[21].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[20] of cell branch[23].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[20] of cell branch[25].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[20] of cell branch[27].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[20] of cell branch[29].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[20] of cell branch[31].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[20] of cell branch[3].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[20] of cell branch[5].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[20] of cell branch[7].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[20] of cell branch[9].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: Warning: multiple conflicting drivers for tt_top.\branch[13].check_mask.l_spine_ow [19]:
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[19] of cell branch[13].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[19] of cell branch[15].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[19] of cell branch[17].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[19] of cell branch[19].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[19] of cell branch[1].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[19] of cell branch[21].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[19] of cell branch[23].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[19] of cell branch[25].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[19] of cell branch[27].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[19] of cell branch[29].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[19] of cell branch[31].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[19] of cell branch[3].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[19] of cell branch[5].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[19] of cell branch[7].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[19] of cell branch[9].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: Warning: multiple conflicting drivers for tt_top.\branch[13].check_mask.l_spine_ow [18]:
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[18] of cell branch[13].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[18] of cell branch[15].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[18] of cell branch[17].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[18] of cell branch[19].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[18] of cell branch[1].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[18] of cell branch[21].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[18] of cell branch[23].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[18] of cell branch[25].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[18] of cell branch[27].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[18] of cell branch[29].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[18] of cell branch[31].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[18] of cell branch[3].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[18] of cell branch[5].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[18] of cell branch[7].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[18] of cell branch[9].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: Warning: multiple conflicting drivers for tt_top.\branch[13].check_mask.l_spine_ow [17]:
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[17] of cell branch[13].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[17] of cell branch[15].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[17] of cell branch[17].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[17] of cell branch[19].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[17] of cell branch[1].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[17] of cell branch[21].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[17] of cell branch[23].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[17] of cell branch[25].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[17] of cell branch[27].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[17] of cell branch[29].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[17] of cell branch[31].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[17] of cell branch[3].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[17] of cell branch[5].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[17] of cell branch[7].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[17] of cell branch[9].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: Warning: multiple conflicting drivers for tt_top.\branch[13].check_mask.l_spine_ow [16]:
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[16] of cell branch[13].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[16] of cell branch[15].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[16] of cell branch[17].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[16] of cell branch[19].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[16] of cell branch[1].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[16] of cell branch[21].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[16] of cell branch[23].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[16] of cell branch[25].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[16] of cell branch[27].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[16] of cell branch[29].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[16] of cell branch[31].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[16] of cell branch[3].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[16] of cell branch[5].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[16] of cell branch[7].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[16] of cell branch[9].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: Warning: multiple conflicting drivers for tt_top.\branch[13].check_mask.l_spine_ow [15]:
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[15] of cell branch[13].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[15] of cell branch[15].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[15] of cell branch[17].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[15] of cell branch[19].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[15] of cell branch[1].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[15] of cell branch[21].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[15] of cell branch[23].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[15] of cell branch[25].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[15] of cell branch[27].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[15] of cell branch[29].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[15] of cell branch[31].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[15] of cell branch[3].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[15] of cell branch[5].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[15] of cell branch[7].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[15] of cell branch[9].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: Warning: multiple conflicting drivers for tt_top.\branch[13].check_mask.l_spine_ow [14]:
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[14] of cell branch[13].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[14] of cell branch[15].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[14] of cell branch[17].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[14] of cell branch[19].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[14] of cell branch[1].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[14] of cell branch[21].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[14] of cell branch[23].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[14] of cell branch[25].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[14] of cell branch[27].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[14] of cell branch[29].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[14] of cell branch[31].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[14] of cell branch[3].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[14] of cell branch[5].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[14] of cell branch[7].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[14] of cell branch[9].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: Warning: multiple conflicting drivers for tt_top.\branch[13].check_mask.l_spine_ow [13]:
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[13] of cell branch[13].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[13] of cell branch[15].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[13] of cell branch[17].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[13] of cell branch[19].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[13] of cell branch[1].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[13] of cell branch[21].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[13] of cell branch[23].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[13] of cell branch[25].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[13] of cell branch[27].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[13] of cell branch[29].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[13] of cell branch[31].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[13] of cell branch[3].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[13] of cell branch[5].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[13] of cell branch[7].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[13] of cell branch[9].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: Warning: multiple conflicting drivers for tt_top.\branch[13].check_mask.l_spine_ow [12]:
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[12] of cell branch[13].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[12] of cell branch[15].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[12] of cell branch[17].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[12] of cell branch[19].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[12] of cell branch[1].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[12] of cell branch[21].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[12] of cell branch[23].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[12] of cell branch[25].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[12] of cell branch[27].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[12] of cell branch[29].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[12] of cell branch[31].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[12] of cell branch[3].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[12] of cell branch[5].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[12] of cell branch[7].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[12] of cell branch[9].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: Warning: multiple conflicting drivers for tt_top.\branch[13].check_mask.l_spine_ow [11]:
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[11] of cell branch[13].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[11] of cell branch[15].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[11] of cell branch[17].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[11] of cell branch[19].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[11] of cell branch[1].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[11] of cell branch[21].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[11] of cell branch[23].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[11] of cell branch[25].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[11] of cell branch[27].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[11] of cell branch[29].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[11] of cell branch[31].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[11] of cell branch[3].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[11] of cell branch[5].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[11] of cell branch[7].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[11] of cell branch[9].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: Warning: multiple conflicting drivers for tt_top.\branch[13].check_mask.l_spine_ow [10]:
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[10] of cell branch[13].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[10] of cell branch[15].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[10] of cell branch[17].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[10] of cell branch[19].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[10] of cell branch[1].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[10] of cell branch[21].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[10] of cell branch[23].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[10] of cell branch[25].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[10] of cell branch[27].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[10] of cell branch[29].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[10] of cell branch[31].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[10] of cell branch[3].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[10] of cell branch[5].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[10] of cell branch[7].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[10] of cell branch[9].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: Warning: multiple conflicting drivers for tt_top.\branch[13].check_mask.l_spine_ow [9]:
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[9] of cell branch[13].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[9] of cell branch[15].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[9] of cell branch[17].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[9] of cell branch[19].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[9] of cell branch[1].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[9] of cell branch[21].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[9] of cell branch[23].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[9] of cell branch[25].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[9] of cell branch[27].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[9] of cell branch[29].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[9] of cell branch[31].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[9] of cell branch[3].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[9] of cell branch[5].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[9] of cell branch[7].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[9] of cell branch[9].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: Warning: multiple conflicting drivers for tt_top.\branch[13].check_mask.l_spine_ow [8]:
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[8] of cell branch[13].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[8] of cell branch[15].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[8] of cell branch[17].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[8] of cell branch[19].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[8] of cell branch[1].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[8] of cell branch[21].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[8] of cell branch[23].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[8] of cell branch[25].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[8] of cell branch[27].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[8] of cell branch[29].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[8] of cell branch[31].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[8] of cell branch[3].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[8] of cell branch[5].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[8] of cell branch[7].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[8] of cell branch[9].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: Warning: multiple conflicting drivers for tt_top.\branch[13].check_mask.l_spine_ow [7]:
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[7] of cell branch[13].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[7] of cell branch[15].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[7] of cell branch[17].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[7] of cell branch[19].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[7] of cell branch[1].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[7] of cell branch[21].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[7] of cell branch[23].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[7] of cell branch[25].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[7] of cell branch[27].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[7] of cell branch[29].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[7] of cell branch[31].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[7] of cell branch[3].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[7] of cell branch[5].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[7] of cell branch[7].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[7] of cell branch[9].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: Warning: multiple conflicting drivers for tt_top.\branch[13].check_mask.l_spine_ow [6]:
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[6] of cell branch[13].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[6] of cell branch[15].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[6] of cell branch[17].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[6] of cell branch[19].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[6] of cell branch[1].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[6] of cell branch[21].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[6] of cell branch[23].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[6] of cell branch[25].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[6] of cell branch[27].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[6] of cell branch[29].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[6] of cell branch[31].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[6] of cell branch[3].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[6] of cell branch[5].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[6] of cell branch[7].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[6] of cell branch[9].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: Warning: multiple conflicting drivers for tt_top.\branch[13].check_mask.l_spine_ow [5]:
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[5] of cell branch[13].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[5] of cell branch[15].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[5] of cell branch[17].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[5] of cell branch[19].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[5] of cell branch[1].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[5] of cell branch[21].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[5] of cell branch[23].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[5] of cell branch[25].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[5] of cell branch[27].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[5] of cell branch[29].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[5] of cell branch[31].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[5] of cell branch[3].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[5] of cell branch[5].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[5] of cell branch[7].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[5] of cell branch[9].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: Warning: multiple conflicting drivers for tt_top.\branch[13].check_mask.l_spine_ow [4]:
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[4] of cell branch[13].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[4] of cell branch[15].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[4] of cell branch[17].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[4] of cell branch[19].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[4] of cell branch[1].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[4] of cell branch[21].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[4] of cell branch[23].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[4] of cell branch[25].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[4] of cell branch[27].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[4] of cell branch[29].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[4] of cell branch[31].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[4] of cell branch[3].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[4] of cell branch[5].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[4] of cell branch[7].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[4] of cell branch[9].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: Warning: multiple conflicting drivers for tt_top.\branch[13].check_mask.l_spine_ow [3]:
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[3] of cell branch[13].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[3] of cell branch[15].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[3] of cell branch[17].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[3] of cell branch[19].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[3] of cell branch[1].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[3] of cell branch[21].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[3] of cell branch[23].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[3] of cell branch[25].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[3] of cell branch[27].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[3] of cell branch[29].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[3] of cell branch[31].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[3] of cell branch[3].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[3] of cell branch[5].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[3] of cell branch[7].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[3] of cell branch[9].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: Warning: multiple conflicting drivers for tt_top.\branch[13].check_mask.l_spine_ow [2]:
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[2] of cell branch[13].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[2] of cell branch[15].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[2] of cell branch[17].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[2] of cell branch[19].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[2] of cell branch[1].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[2] of cell branch[21].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[2] of cell branch[23].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[2] of cell branch[25].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[2] of cell branch[27].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[2] of cell branch[29].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[2] of cell branch[31].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[2] of cell branch[3].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[2] of cell branch[5].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[2] of cell branch[7].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[2] of cell branch[9].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: Warning: multiple conflicting drivers for tt_top.\branch[13].check_mask.l_spine_ow [1]:
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[1] of cell branch[13].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[1] of cell branch[15].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[1] of cell branch[17].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[1] of cell branch[19].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[1] of cell branch[1].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[1] of cell branch[21].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[1] of cell branch[23].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[1] of cell branch[25].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[1] of cell branch[27].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[1] of cell branch[29].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[1] of cell branch[31].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[1] of cell branch[3].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[1] of cell branch[5].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[1] of cell branch[7].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[1] of cell branch[9].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: Warning: multiple conflicting drivers for tt_top.\branch[13].check_mask.l_spine_ow [0]:
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[0] of cell branch[13].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[0] of cell branch[15].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[0] of cell branch[17].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[0] of cell branch[19].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[0] of cell branch[1].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[0] of cell branch[21].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[0] of cell branch[23].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[0] of cell branch[25].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[0] of cell branch[27].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[0] of cell branch[29].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[0] of cell branch[31].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[0] of cell branch[3].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[0] of cell branch[5].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[0] of cell branch[7].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[0] of cell branch[9].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: Warning: multiple conflicting drivers for tt_top.\branch[0].check_mask.l_spine_ow [25]:
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[25] of cell branch[0].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[25] of cell branch[10].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[25] of cell branch[14].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[25] of cell branch[16].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[25] of cell branch[18].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[25] of cell branch[20].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[25] of cell branch[22].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[25] of cell branch[24].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[25] of cell branch[26].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[25] of cell branch[28].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[25] of cell branch[2].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[25] of cell branch[30].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[25] of cell branch[4].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[25] of cell branch[6].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[25] of cell branch[8].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: Warning: multiple conflicting drivers for tt_top.\branch[0].check_mask.l_spine_ow [24]:
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[24] of cell branch[0].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[24] of cell branch[10].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[24] of cell branch[14].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[24] of cell branch[16].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[24] of cell branch[18].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[24] of cell branch[20].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[24] of cell branch[22].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[24] of cell branch[24].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[24] of cell branch[26].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[24] of cell branch[28].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[24] of cell branch[2].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[24] of cell branch[30].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[24] of cell branch[4].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[24] of cell branch[6].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[24] of cell branch[8].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: Warning: multiple conflicting drivers for tt_top.\branch[0].check_mask.l_spine_ow [23]:
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[23] of cell branch[0].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[23] of cell branch[10].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[23] of cell branch[14].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[23] of cell branch[16].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[23] of cell branch[18].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[23] of cell branch[20].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[23] of cell branch[22].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[23] of cell branch[24].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[23] of cell branch[26].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[23] of cell branch[28].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[23] of cell branch[2].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[23] of cell branch[30].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[23] of cell branch[4].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[23] of cell branch[6].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[23] of cell branch[8].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: Warning: multiple conflicting drivers for tt_top.\branch[0].check_mask.l_spine_ow [22]:
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[22] of cell branch[0].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[22] of cell branch[10].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[22] of cell branch[14].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[22] of cell branch[16].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[22] of cell branch[18].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[22] of cell branch[20].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[22] of cell branch[22].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[22] of cell branch[24].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[22] of cell branch[26].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[22] of cell branch[28].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[22] of cell branch[2].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[22] of cell branch[30].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[22] of cell branch[4].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[22] of cell branch[6].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[22] of cell branch[8].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: Warning: multiple conflicting drivers for tt_top.\branch[0].check_mask.l_spine_ow [21]:
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[21] of cell branch[0].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[21] of cell branch[10].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[21] of cell branch[14].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[21] of cell branch[16].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[21] of cell branch[18].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[21] of cell branch[20].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[21] of cell branch[22].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[21] of cell branch[24].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[21] of cell branch[26].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[21] of cell branch[28].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[21] of cell branch[2].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[21] of cell branch[30].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[21] of cell branch[4].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[21] of cell branch[6].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[21] of cell branch[8].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: Warning: multiple conflicting drivers for tt_top.\branch[0].check_mask.l_spine_ow [20]:
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[20] of cell branch[0].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[20] of cell branch[10].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[20] of cell branch[14].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[20] of cell branch[16].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[20] of cell branch[18].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[20] of cell branch[20].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[20] of cell branch[22].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[20] of cell branch[24].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[20] of cell branch[26].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[20] of cell branch[28].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[20] of cell branch[2].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[20] of cell branch[30].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[20] of cell branch[4].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[20] of cell branch[6].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[20] of cell branch[8].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: Warning: multiple conflicting drivers for tt_top.\branch[0].check_mask.l_spine_ow [19]:
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[19] of cell branch[0].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[19] of cell branch[10].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[19] of cell branch[14].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[19] of cell branch[16].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[19] of cell branch[18].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[19] of cell branch[20].check_mask.mux_I (tt_mux)
+SBY  5:26:54 [tt_connectivity] base: port spine_ow[19] of cell branch[22].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[19] of cell branch[24].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[19] of cell branch[26].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[19] of cell branch[28].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[19] of cell branch[2].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[19] of cell branch[30].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[19] of cell branch[4].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[19] of cell branch[6].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[19] of cell branch[8].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: Warning: multiple conflicting drivers for tt_top.\branch[0].check_mask.l_spine_ow [18]:
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[18] of cell branch[0].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[18] of cell branch[10].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[18] of cell branch[14].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[18] of cell branch[16].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[18] of cell branch[18].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[18] of cell branch[20].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[18] of cell branch[22].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[18] of cell branch[24].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[18] of cell branch[26].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[18] of cell branch[28].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[18] of cell branch[2].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[18] of cell branch[30].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[18] of cell branch[4].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[18] of cell branch[6].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[18] of cell branch[8].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: Warning: multiple conflicting drivers for tt_top.\branch[0].check_mask.l_spine_ow [17]:
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[17] of cell branch[0].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[17] of cell branch[10].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[17] of cell branch[14].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[17] of cell branch[16].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[17] of cell branch[18].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[17] of cell branch[20].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[17] of cell branch[22].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[17] of cell branch[24].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[17] of cell branch[26].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[17] of cell branch[28].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[17] of cell branch[2].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[17] of cell branch[30].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[17] of cell branch[4].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[17] of cell branch[6].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[17] of cell branch[8].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: Warning: multiple conflicting drivers for tt_top.\branch[0].check_mask.l_spine_ow [16]:
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[16] of cell branch[0].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[16] of cell branch[10].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[16] of cell branch[14].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[16] of cell branch[16].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[16] of cell branch[18].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[16] of cell branch[20].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[16] of cell branch[22].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[16] of cell branch[24].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[16] of cell branch[26].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[16] of cell branch[28].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[16] of cell branch[2].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[16] of cell branch[30].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[16] of cell branch[4].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[16] of cell branch[6].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[16] of cell branch[8].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: Warning: multiple conflicting drivers for tt_top.\branch[0].check_mask.l_spine_ow [15]:
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[15] of cell branch[0].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[15] of cell branch[10].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[15] of cell branch[14].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[15] of cell branch[16].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[15] of cell branch[18].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[15] of cell branch[20].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[15] of cell branch[22].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[15] of cell branch[24].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[15] of cell branch[26].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[15] of cell branch[28].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[15] of cell branch[2].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[15] of cell branch[30].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[15] of cell branch[4].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[15] of cell branch[6].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[15] of cell branch[8].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: Warning: multiple conflicting drivers for tt_top.\branch[0].check_mask.l_spine_ow [14]:
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[14] of cell branch[0].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[14] of cell branch[10].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[14] of cell branch[14].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[14] of cell branch[16].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[14] of cell branch[18].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[14] of cell branch[20].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[14] of cell branch[22].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[14] of cell branch[24].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[14] of cell branch[26].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[14] of cell branch[28].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[14] of cell branch[2].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[14] of cell branch[30].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[14] of cell branch[4].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[14] of cell branch[6].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[14] of cell branch[8].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: Warning: multiple conflicting drivers for tt_top.\branch[0].check_mask.l_spine_ow [13]:
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[13] of cell branch[0].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[13] of cell branch[10].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[13] of cell branch[14].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[13] of cell branch[16].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[13] of cell branch[18].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[13] of cell branch[20].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[13] of cell branch[22].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[13] of cell branch[24].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[13] of cell branch[26].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[13] of cell branch[28].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[13] of cell branch[2].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[13] of cell branch[30].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[13] of cell branch[4].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[13] of cell branch[6].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[13] of cell branch[8].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: Warning: multiple conflicting drivers for tt_top.\branch[0].check_mask.l_spine_ow [12]:
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[12] of cell branch[0].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[12] of cell branch[10].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[12] of cell branch[14].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[12] of cell branch[16].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[12] of cell branch[18].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[12] of cell branch[20].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[12] of cell branch[22].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[12] of cell branch[24].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[12] of cell branch[26].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[12] of cell branch[28].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[12] of cell branch[2].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[12] of cell branch[30].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[12] of cell branch[4].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[12] of cell branch[6].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[12] of cell branch[8].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: Warning: multiple conflicting drivers for tt_top.\branch[0].check_mask.l_spine_ow [11]:
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[11] of cell branch[0].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[11] of cell branch[10].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[11] of cell branch[14].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[11] of cell branch[16].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[11] of cell branch[18].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[11] of cell branch[20].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[11] of cell branch[22].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[11] of cell branch[24].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[11] of cell branch[26].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[11] of cell branch[28].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[11] of cell branch[2].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[11] of cell branch[30].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[11] of cell branch[4].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[11] of cell branch[6].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[11] of cell branch[8].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: Warning: multiple conflicting drivers for tt_top.\branch[0].check_mask.l_spine_ow [10]:
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[10] of cell branch[0].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[10] of cell branch[10].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[10] of cell branch[14].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[10] of cell branch[16].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[10] of cell branch[18].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[10] of cell branch[20].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[10] of cell branch[22].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[10] of cell branch[24].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[10] of cell branch[26].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[10] of cell branch[28].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[10] of cell branch[2].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[10] of cell branch[30].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[10] of cell branch[4].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[10] of cell branch[6].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[10] of cell branch[8].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: Warning: multiple conflicting drivers for tt_top.\branch[0].check_mask.l_spine_ow [9]:
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[9] of cell branch[0].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[9] of cell branch[10].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[9] of cell branch[14].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[9] of cell branch[16].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[9] of cell branch[18].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[9] of cell branch[20].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[9] of cell branch[22].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[9] of cell branch[24].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[9] of cell branch[26].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[9] of cell branch[28].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[9] of cell branch[2].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[9] of cell branch[30].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[9] of cell branch[4].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[9] of cell branch[6].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[9] of cell branch[8].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: Warning: multiple conflicting drivers for tt_top.\branch[0].check_mask.l_spine_ow [8]:
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[8] of cell branch[0].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[8] of cell branch[10].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[8] of cell branch[14].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[8] of cell branch[16].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[8] of cell branch[18].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[8] of cell branch[20].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[8] of cell branch[22].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[8] of cell branch[24].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[8] of cell branch[26].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[8] of cell branch[28].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[8] of cell branch[2].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[8] of cell branch[30].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[8] of cell branch[4].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[8] of cell branch[6].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[8] of cell branch[8].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: Warning: multiple conflicting drivers for tt_top.\branch[0].check_mask.l_spine_ow [7]:
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[7] of cell branch[0].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[7] of cell branch[10].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[7] of cell branch[14].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[7] of cell branch[16].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[7] of cell branch[18].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[7] of cell branch[20].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[7] of cell branch[22].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[7] of cell branch[24].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[7] of cell branch[26].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[7] of cell branch[28].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[7] of cell branch[2].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[7] of cell branch[30].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[7] of cell branch[4].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[7] of cell branch[6].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[7] of cell branch[8].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: Warning: multiple conflicting drivers for tt_top.\branch[0].check_mask.l_spine_ow [6]:
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[6] of cell branch[0].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[6] of cell branch[10].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[6] of cell branch[14].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[6] of cell branch[16].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[6] of cell branch[18].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[6] of cell branch[20].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[6] of cell branch[22].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[6] of cell branch[24].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[6] of cell branch[26].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[6] of cell branch[28].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[6] of cell branch[2].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[6] of cell branch[30].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[6] of cell branch[4].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[6] of cell branch[6].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[6] of cell branch[8].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: Warning: multiple conflicting drivers for tt_top.\branch[0].check_mask.l_spine_ow [5]:
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[5] of cell branch[0].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[5] of cell branch[10].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[5] of cell branch[14].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[5] of cell branch[16].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[5] of cell branch[18].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[5] of cell branch[20].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[5] of cell branch[22].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[5] of cell branch[24].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[5] of cell branch[26].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[5] of cell branch[28].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[5] of cell branch[2].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[5] of cell branch[30].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[5] of cell branch[4].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[5] of cell branch[6].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[5] of cell branch[8].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: Warning: multiple conflicting drivers for tt_top.\branch[0].check_mask.l_spine_ow [4]:
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[4] of cell branch[0].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[4] of cell branch[10].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[4] of cell branch[14].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[4] of cell branch[16].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[4] of cell branch[18].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[4] of cell branch[20].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[4] of cell branch[22].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[4] of cell branch[24].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[4] of cell branch[26].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[4] of cell branch[28].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[4] of cell branch[2].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[4] of cell branch[30].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[4] of cell branch[4].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[4] of cell branch[6].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[4] of cell branch[8].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: Warning: multiple conflicting drivers for tt_top.\branch[0].check_mask.l_spine_ow [3]:
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[3] of cell branch[0].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[3] of cell branch[10].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[3] of cell branch[14].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[3] of cell branch[16].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[3] of cell branch[18].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[3] of cell branch[20].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[3] of cell branch[22].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[3] of cell branch[24].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[3] of cell branch[26].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[3] of cell branch[28].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[3] of cell branch[2].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[3] of cell branch[30].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[3] of cell branch[4].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[3] of cell branch[6].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[3] of cell branch[8].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: Warning: multiple conflicting drivers for tt_top.\branch[0].check_mask.l_spine_ow [2]:
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[2] of cell branch[0].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[2] of cell branch[10].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[2] of cell branch[14].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[2] of cell branch[16].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[2] of cell branch[18].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[2] of cell branch[20].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[2] of cell branch[22].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[2] of cell branch[24].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[2] of cell branch[26].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[2] of cell branch[28].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[2] of cell branch[2].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[2] of cell branch[30].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[2] of cell branch[4].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[2] of cell branch[6].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[2] of cell branch[8].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: Warning: multiple conflicting drivers for tt_top.\branch[0].check_mask.l_spine_ow [1]:
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[1] of cell branch[0].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[1] of cell branch[10].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[1] of cell branch[14].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[1] of cell branch[16].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[1] of cell branch[18].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[1] of cell branch[20].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[1] of cell branch[22].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[1] of cell branch[24].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[1] of cell branch[26].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[1] of cell branch[28].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[1] of cell branch[2].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[1] of cell branch[30].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[1] of cell branch[4].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[1] of cell branch[6].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[1] of cell branch[8].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: Warning: multiple conflicting drivers for tt_top.\branch[0].check_mask.l_spine_ow [0]:
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[0] of cell branch[0].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[0] of cell branch[10].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[0] of cell branch[14].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[0] of cell branch[16].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[0] of cell branch[18].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[0] of cell branch[20].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[0] of cell branch[22].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[0] of cell branch[24].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[0] of cell branch[26].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[0] of cell branch[28].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[0] of cell branch[2].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[0] of cell branch[30].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[0] of cell branch[4].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[0] of cell branch[6].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: port spine_ow[0] of cell branch[8].check_mask.mux_I (tt_mux)
+SBY  5:26:55 [tt_connectivity] base: Warning: Wire tt_um_formal.\uio_out [7] is used but has no driver.
+SBY  5:26:55 [tt_connectivity] base: Warning: Wire tt_um_formal.\uio_out [6] is used but has no driver.
+SBY  5:26:55 [tt_connectivity] base: Warning: Wire tt_um_formal.\uio_out [5] is used but has no driver.
+SBY  5:26:55 [tt_connectivity] base: Warning: Wire tt_um_formal.\uio_out [4] is used but has no driver.
+SBY  5:26:55 [tt_connectivity] base: Warning: Wire tt_um_formal.\uio_out [3] is used but has no driver.
+SBY  5:26:55 [tt_connectivity] base: Warning: Wire tt_um_formal.\uio_out [2] is used but has no driver.
+SBY  5:26:55 [tt_connectivity] base: Warning: Wire tt_um_formal.\uio_out [1] is used but has no driver.
+SBY  5:26:55 [tt_connectivity] base: Warning: Wire tt_um_formal.\uio_out [0] is used but has no driver.
+SBY  5:26:55 [tt_connectivity] base: Warning: Wire tt_um_formal.\uio_oe [7] is used but has no driver.
+SBY  5:26:55 [tt_connectivity] base: Warning: Wire tt_um_formal.\uio_oe [6] is used but has no driver.
+SBY  5:26:55 [tt_connectivity] base: Warning: Wire tt_um_formal.\uio_oe [5] is used but has no driver.
+SBY  5:26:55 [tt_connectivity] base: Warning: Wire tt_um_formal.\uio_oe [4] is used but has no driver.
+SBY  5:26:55 [tt_connectivity] base: Warning: Wire tt_um_formal.\uio_oe [3] is used but has no driver.
+SBY  5:26:55 [tt_connectivity] base: Warning: Wire tt_um_formal.\uio_oe [2] is used but has no driver.
+SBY  5:26:55 [tt_connectivity] base: Warning: Wire tt_um_formal.\uio_oe [1] is used but has no driver.
+SBY  5:26:55 [tt_connectivity] base: Warning: Wire tt_um_formal.\uio_oe [0] is used but has no driver.
+SBY  5:27:16 [tt_connectivity] base: finished (returncode=0)
+SBY  5:27:17 [tt_connectivity] prep: starting process "cd tt_connectivity/model; yosys -ql design_prep.log design_prep.ys"
+SBY  5:27:38 [tt_connectivity] prep: Warning: Wire tt_formal.\dut_I.ctrl_I.side_ena0_buf_I.e is used but has no driver.
+SBY  5:27:38 [tt_connectivity] prep: Warning: Wire tt_formal.\dut_I.ctrl_I.genblk2[0].pad_ui_in_buf_I[1].a is used but has no driver.
+SBY  5:27:38 [tt_connectivity] prep: Warning: Wire tt_formal.\dut_I.ctrl_I.genblk2[0].pad_ui_in_buf_I[0].a is used but has no driver.
+SBY  5:27:38 [tt_connectivity] prep: Warning: Wire tt_formal.\dut_I.branch[28].check_mask.mux_I.block[8].genblk1.mux4_I[7].b is used but has no driver.
+SBY  5:27:38 [tt_connectivity] prep: Warning: Wire tt_formal.\dut_I.branch[28].check_mask.mux_I.block[8].genblk1.mux4_I[6].b is used but has no driver.
+SBY  5:27:38 [tt_connectivity] prep: Warning: Wire tt_formal.\dut_I.branch[28].check_mask.mux_I.block[8].genblk1.mux4_I[5].b is used but has no driver.
+SBY  5:27:38 [tt_connectivity] prep: Warning: Wire tt_formal.\dut_I.branch[28].check_mask.mux_I.block[8].genblk1.mux4_I[4].b is used but has no driver.
+SBY  5:27:38 [tt_connectivity] prep: Warning: Wire tt_formal.\dut_I.branch[28].check_mask.mux_I.block[8].genblk1.mux4_I[3].b is used but has no driver.
+SBY  5:27:38 [tt_connectivity] prep: Warning: Wire tt_formal.\dut_I.branch[28].check_mask.mux_I.block[8].genblk1.mux4_I[2].b is used but has no driver.
+SBY  5:27:38 [tt_connectivity] prep: Warning: Wire tt_formal.\dut_I.branch[28].check_mask.mux_I.block[8].genblk1.mux4_I[1].b is used but has no driver.
+SBY  5:27:38 [tt_connectivity] prep: Warning: Wire tt_formal.\dut_I.branch[28].check_mask.mux_I.block[8].genblk1.mux4_I[0].b is used but has no driver.
+SBY  5:27:38 [tt_connectivity] prep: Warning: Wire tt_formal.\dut_I.ctrl_I.sel_cnt_gen[0].cnt_bit_I.clk is used but has no driver.
+SBY  5:27:38 [tt_connectivity] prep: Warning: Wire tt_formal.\dut_I.ctrl_I.sel_cnt_gen[0].cnt_bit_I.rst_n is used but has no driver.
+SBY  5:27:48 [tt_connectivity] prep: finished (returncode=0)
+SBY  5:27:48 [tt_connectivity] smt2: starting process "cd tt_connectivity/model; yosys -ql design_smt2.log design_smt2.ys"
+SBY  5:27:58 [tt_connectivity] smt2: finished (returncode=0)
+SBY  5:27:58 [tt_connectivity] engine_0.basecase: starting process "cd tt_connectivity; yosys-smtbmc --presat --unroll --noprogress -t 10  --append 0 --dump-vcd engine_0/trace.vcd --dump-yw engine_0/trace.yw --dump-vlogtb engine_0/trace_tb.v --dump-smtc engine_0/trace.smtc model/design_smt2.smt2"
+SBY  5:27:58 [tt_connectivity] engine_0.induction: starting process "cd tt_connectivity; yosys-smtbmc --presat --unroll -i --noprogress -t 10  --append 0 --dump-vcd engine_0/trace_induct.vcd --dump-yw engine_0/trace_induct.yw --dump-vlogtb engine_0/trace_induct_tb.v --dump-smtc engine_0/trace_induct.smtc model/design_smt2.smt2"
+SBY  5:27:58 [tt_connectivity] engine_0.basecase: ##   0:00:00  Solver: yices
+SBY  5:27:58 [tt_connectivity] engine_0.induction: ##   0:00:00  Solver: yices
+SBY  5:28:04 [tt_connectivity] engine_0.basecase: ##   0:00:06  Checking assumptions in step 0..
+SBY  5:28:04 [tt_connectivity] engine_0.basecase: ##   0:00:06  Checking assertions in step 0..
+SBY  5:28:05 [tt_connectivity] engine_0.induction: ##   0:00:07  Trying induction in step 10..
+SBY  5:28:07 [tt_connectivity] engine_0.basecase: ##   0:00:08  BMC failed!
+SBY  5:28:07 [tt_connectivity] engine_0.basecase: ##   0:00:08  Assert failed in tt_formal: tt_um_formal.v:29.6-29.29 (_witness_.check_flatten_dut_I__branch_28__check_mask_block_9__um_I__block_28_9_tt_um_I__assert_tt_um_formal_v_29_75)
+SBY  5:28:07 [tt_connectivity] engine_0.induction: ##   0:00:09  Trying induction in step 9..
+SBY  5:28:07 [tt_connectivity] engine_0.basecase: ##   0:00:09  Writing trace to VCD file: engine_0/trace.vcd
+SBY  5:28:08 [tt_connectivity] engine_0.induction: ##   0:00:10  Trying induction in step 8..
+SBY  5:28:10 [tt_connectivity] engine_0.induction: ##   0:00:11  Trying induction in step 7..
+SBY  5:28:10 [tt_connectivity] engine_0.induction: ##   0:00:12  Trying induction in step 6..
+SBY  5:28:09 [tt_connectivity] engine_0.induction: ##   0:00:11  Trying induction in step 5..
+SBY  5:28:10 [tt_connectivity] engine_0.induction: ##   0:00:12  Trying induction in step 4..
+SBY  5:28:12 [tt_connectivity] engine_0.induction: ##   0:00:13  Trying induction in step 3..
+SBY  5:28:13 [tt_connectivity] engine_0.induction: ##   0:00:15  Trying induction in step 2..
+SBY  5:28:14 [tt_connectivity] engine_0.basecase: ##   0:00:15  Writing trace to Verilog testbench: engine_0/trace_tb.v
+SBY  5:28:14 [tt_connectivity] engine_0.basecase: ##   0:00:16  Writing trace to constraints file: engine_0/trace.smtc
+SBY  5:28:14 [tt_connectivity] engine_0.basecase: ##   0:00:16  Writing trace to Yosys witness file: engine_0/trace.yw
+SBY  5:28:14 [tt_connectivity] engine_0.basecase: ##   0:00:16  Status: failed
+SBY  5:28:14 [tt_connectivity] engine_0.induction: ##   0:00:16  Trying induction in step 1..
+SBY  5:28:15 [tt_connectivity] engine_0.basecase: finished (returncode=1)
+SBY  5:28:15 [tt_connectivity] engine_0.basecase: Status returned by engine for basecase: FAIL
+SBY  5:28:15 [tt_connectivity] engine_0.induction: terminating process
+SBY  5:28:15 [tt_connectivity] summary: Elapsed clock time [H:MM:SS (secs)]: 0:01:52 (112)
+SBY  5:28:15 [tt_connectivity] summary: Elapsed process time [H:MM:SS (secs)]: 0:01:22 (82)
+SBY  5:28:15 [tt_connectivity] summary: engine_0 (smtbmc) returned FAIL for basecase
+SBY  5:28:15 [tt_connectivity] summary: counterexample trace [basecase]: tt_connectivity/engine_0/trace.vcd
+SBY  5:28:15 [tt_connectivity] summary:   failed assertion tt_formal._witness_.check_flatten_dut_I__branch_28__check_mask_block_9__um_I__block_28_9_tt_um_I__assert_tt_um_formal_v_29_75 at tt_um_formal.v:29.6-29.29 in step 0
+SBY  5:28:15 [tt_connectivity] DONE (FAIL, rc=2)
